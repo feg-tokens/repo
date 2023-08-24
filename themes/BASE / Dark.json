@@ -1,0 +1,335 @@
+{
+  "color": {
+    "background": {
+      "base": {
+        "value": "$palette.grey.10",
+        "type": "color"
+      },
+      "gm-base": {
+        "value": "$palette.grey.30",
+        "type": "color"
+      },
+      "progress-bar": {
+        "value": "$palette.grey.40",
+        "type": "color",
+        "description": "To be used on progress-bar backgrounds."
+      }
+    },
+    "surface": {
+      "primary": {
+        "value": "$palette.grey.40",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "$palette.grey.30",
+        "type": "color"
+      },
+      "panel": {
+        "value": "$palette.grey.50",
+        "type": "color"
+      },
+      "action": {
+        "value": "$palette.grey.60",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "linear-gradient(0deg, $color.surface.primary 0%, $color.surface.secondary 100%);",
+        "type": "color"
+      },
+      "inverted-bw": {
+        "value": "$palette.base.black",
+        "type": "color"
+      },
+      "input": {
+        "value": "$palette.grey.20",
+        "type": "color"
+      },
+      "input-error": {
+        "value": "$palette.red.10",
+        "type": "color"
+      },
+      "input-text-inactive": {
+        "value": "$palette.grey.70",
+        "type": "color"
+      },
+      "navigation": {
+        "value": "$palette.grey.10",
+        "type": "color"
+      }
+    },
+    "surface-hover": {
+      "primary": {
+        "value": "{color.surface.primary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.035",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "value": "{color.surface.secondary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.035",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "panel": {
+        "value": "{color.surface.panel}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.035",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "action": {
+        "value": "{color.surface.action}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.035",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "primary": {
+        "value": "$palette.base.white",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "$palette.grey.80",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "$palette.grey.70",
+        "type": "color"
+      },
+      "on-content-primary": {
+        "value": "$palette.base.white",
+        "type": "color"
+      },
+      "form-label-text": {
+        "value": "$palette.base.white",
+        "type": "color"
+      },
+      "primary-inverted": {
+        "value": "$palette.base.black",
+        "type": "color"
+      },
+      "perma-black": {
+        "value": "$palette.base.black",
+        "type": "color"
+      },
+      "perma-white": {
+        "value": "$palette.base.white",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "$palette.grey.50",
+        "type": "color"
+      },
+      "error": {
+        "value": "{palette.red.110}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "primary": {
+        "value": "$palette.grey.10",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "$palette.grey.20",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "$palette.grey.20",
+        "type": "color"
+      },
+      "gm-base": {
+        "value": "$palette.grey.20",
+        "type": "color"
+      },
+      "btn-disabled": {
+        "value": "$palette.grey.70",
+        "type": "color"
+      },
+      "input": {
+        "value": "$palette.grey.60",
+        "type": "color"
+      },
+      "input-error": {
+        "value": "$palette.red.50",
+        "type": "color"
+      },
+      "input-sucess": {
+        "value": "$palette.green.50",
+        "type": "color"
+      }
+    },
+    "overlay": {
+      "scrim": {
+        "value": "rgba($palette.base.black, $opacity.scrim)",
+        "type": "color"
+      },
+      "navigation": {
+        "value": "rgba({color.surface.primary} , {opacity.glass})",
+        "type": "color"
+      },
+      "tooltip-default": {
+        "value": "rgba({color.surface.action} , {opacity.glass})",
+        "type": "color"
+      },
+      "error": {
+        "value": "rgba( {color.meaning.negative} , {opacity.glass})",
+        "type": "color"
+      },
+      "info": {
+        "value": "rgba( {color.meaning.info} , {opacity.glass})",
+        "type": "color"
+      },
+      "positive": {
+        "value": "rgba( {color.meaning.positive} , {opacity.glass})",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
+        "type": "color"
+      }
+    }
+  },
+  "feedback": {
+    "tooltip": {
+      "default": {
+        "value": {
+          "fill": "{color.overlay.tooltip-default}",
+          "backgroundBlur": "8",
+          "borderRadius": "{radius.small}",
+          "boxShadow": "{shadow.out.large}",
+          "verticalPadding": "{space.small}",
+          "horizontalPadding": "{space.medium-s}"
+        },
+        "type": "composition"
+      },
+      "error": {
+        "value": {
+          "fill": "{color.overlay.error}",
+          "backgroundBlur": "8",
+          "borderRadius": "{radius.small}",
+          "boxShadow": "{shadow.out.large}"
+        },
+        "type": "composition"
+      },
+      "info": {
+        "value": {
+          "fill": "{color.overlay.info}",
+          "backgroundBlur": "8",
+          "borderRadius": "{radius.small}",
+          "boxShadow": "{shadow.out.large}"
+        },
+        "type": "composition"
+      }
+    },
+    "snackbar": {
+      "alert": {
+        "value": {
+          "fill": "{color.overlay.error}",
+          "horizontalPadding": "{space.large}",
+          "verticalPadding": "{space.medium-l}",
+          "borderRadius": "{radius.medium}",
+          "boxShadow": "{shadow.out.xlarge}",
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
+      },
+      "info": {
+        "value": {
+          "fill": "{color.overlay.info}",
+          "horizontalPadding": "{space.large}",
+          "verticalPadding": "{space.medium-l}",
+          "borderRadius": "{radius.medium}",
+          "boxShadow": "{shadow.out.xlarge}",
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
+      },
+      "positive": {
+        "value": {
+          "fill": "{color.overlay.positive}",
+          "horizontalPadding": "{space.large}",
+          "verticalPadding": "{space.medium-l}",
+          "borderRadius": "{radius.medium}",
+          "boxShadow": "{shadow.out.xlarge}",
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "special-surface": {
+    "navigation-bar": {
+      "value": {
+        "fill": "{color.overlay.navigation}",
+        "backgroundBlur": "8"
+      },
+      "type": "composition"
+    }
+  },
+  "sheet": {
+    "bottom": {
+      "value": {
+        "fill": "{color.surface.primary}",
+        "paddingTop": "{space.medium}",
+        "borderRadiusTopLeft": "{radius.xlarge}",
+        "borderRadiusTopRight": "{radius.xlarge}",
+        "borderRadiusBottomRight": "none",
+        "borderRadiusBottomLeft": "none"
+      },
+      "type": "composition"
+    }
+  },
+  "dialog": {
+    "default": {
+      "value": {
+        "fill": "{color.surface.primary}",
+        "verticalPadding": "{space.xlarge}",
+        "horizontalPadding": "{space.xlarge}",
+        "boxShadow": "{shadow.out.xlarge}",
+        "borderRadius": "{radius.medium}"
+      },
+      "type": "composition"
+    }
+  },
+  "pop-over": {
+    "default": {
+      "value": {
+        "fill": "{color.surface.panel}",
+        "verticalPadding": "{space.xlarge}",
+        "horizontalPadding": "{space.xlarge}",
+        "boxShadow": "{shadow.out.2xlarge}",
+        "borderRadius": "{radius.medium}"
+      },
+      "type": "composition"
+    }
+  }
+}

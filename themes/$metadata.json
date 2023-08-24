@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "Global",
+    "BASE / Dark",
+    "BASE / Light",
+    "FTN / Dark",
+    "FTN / Light",
+    "CP / Light",
+    "CP / Dark",
+    "PSK / Light",
+    "PSK / Dark"
+  ]
+}
