@@ -425,7 +425,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "0.7",
+              "value": "0.85",
               "space": "hsl"
             }
           }
@@ -552,7 +552,6 @@
       "110": {
         "value": "{palette.red.base}",
         "type": "color",
-        "description": "Error text for Dark Theme",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -566,6 +565,7 @@
       "120": {
         "value": "{palette.red.base}",
         "type": "color",
+        "description": "Error text for Dark Theme",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -1201,9 +1201,9 @@
       "small": {
         "value": {
           "x": "0",
-          "y": "0",
-          "blur": "6",
-          "spread": "4",
+          "y": "1",
+          "blur": "4",
+          "spread": "0",
           "color": "rgba(0,0,0,0.20)",
           "type": "innerShadow"
         },
@@ -1548,10 +1548,27 @@
           "textDecoration": "{typography.text-decoration.none}"
         },
         "type": "typography"
+      },
+      "helper-text": {
+        "value": {
+          "fontFamily": "{typography.font-family.default-web}",
+          "fontWeight": "{typography.font-weight.regular}",
+          "fontSize": "{typography.font-size.xsmall}",
+          "lineHeight": "{typography.line-height.xsmall}",
+          "letterSpacing": "{typography.letter-spacing.none}",
+          "paragraphSpacing": "{typography.paragraph-spacing.none}",
+          "textDecoration": "{typography.text-decoration.none}",
+          "textCase": "{typography.text-case.none}"
+        },
+        "type": "typography"
       }
     }
   },
   "border-width": {
+    "none": {
+      "value": "0",
+      "type": "borderWidth"
+    },
     "1px": {
       "value": "1px",
       "type": "borderWidth"

@@ -208,7 +208,9 @@
         "value": {
           "borderRadius": "{radius.medium}",
           "fill": "{color.surface.input}",
-          "boxShadow": "{shadow.in.small}"
+          "boxShadow": "{shadow.in.small}",
+          "borderColor": "{color.border.input}",
+          "borderWidth": "{border-width.none}"
         },
         "type": "composition"
       },

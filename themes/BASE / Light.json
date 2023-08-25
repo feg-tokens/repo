@@ -151,6 +151,10 @@
       "error": {
         "value": "{palette.red.50}",
         "type": "color"
+      },
+      "placeholder": {
+        "value": "{color.border.input}",
+        "type": "color"
       }
     },
     "border": {
@@ -175,7 +179,7 @@
         "type": "color"
       },
       "input": {
-        "value": "$palette.grey.80",
+        "value": "$palette.grey.90",
         "type": "color"
       },
       "input-error": {

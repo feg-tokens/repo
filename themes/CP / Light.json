@@ -208,8 +208,9 @@
         "value": {
           "borderRadius": "{radius.medium}",
           "fill": "{color.surface.input}",
+          "boxShadow": "{shadow.in.small}",
           "borderColor": "{color.border.input}",
-          "boxShadow": "{shadow.in.small}"
+          "borderWidth": "{border-width.none}"
         },
         "type": "composition"
       },
@@ -235,7 +236,7 @@
         "value": {
           "borderRadius": "{radius.medium}",
           "fill": "{color.surface.input}",
-          "borderColor": "{color.border.input-sucess}",
+          "borderColor": "{color.meaning.positive}",
           "boxShadow": "{shadow.in.small}"
         },
         "type": "composition"
