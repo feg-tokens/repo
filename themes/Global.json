@@ -41,21 +41,46 @@
       "description": "48px"
     }
   },
-  "space": {
-    "scale": {
-      "base": {
-        "value": "0.25",
-        "type": "spacing",
-        "description": "Token used as a calculation value to acieve the spacing scale."
+  "scale": {
+    "space": {
+      "value": "0.25",
+      "type": "spacing",
+      "description": "Token used as a calculation value to acieve the spacing scale."
+    },
+    "line-height": {
+      "for-title": {
+        "value": "1.10",
+        "type": "lineHeights",
+        "description": "Token used as a calculation value to acieve the line-height scale in REM units, for larger typography types."
+      },
+      "for-body": {
+        "value": "1.40",
+        "type": "lineHeights",
+        "description": "Token used as a calculation value to acieve the line-height scale in REM units, for basic typography types."
       }
     },
+    "font-size": {
+      "value": "0.125rem",
+      "type": "fontSizes",
+      "description": "Token used as a calculation value to acieve the font-size scale in REM units."
+    },
+    "hsl-dark": {
+      "value": "0.075",
+      "type": "other"
+    },
+    "hsl-light": {
+      "value": "0.06",
+      "type": "other"
+    }
+  },
+  "space": {
     "small": {
-      "value": "{space.medium}*(2* {space.scale.base} )",
+      "value": "{space.medium}*(2* {scale.space} )",
       "type": "spacing",
       "description": "4px"
     },
     "medium-s": {
-      "value": "{space.medium}*(3* {space.scale.base} )",
+      "value": "{space.medium}*(3* {scale.space} )",
       "type": "spacing",
       "description": "6px"
     },
@@ -65,7 +90,7 @@
       "description": "8px"
     },
     "medium-l": {
-      "value": "{space.medium}*(6* {space.scale.base} )",
+      "value": "{space.medium}*(6* {scale.space} )",
       "type": "spacing",
       "description": "12px"
     },
@@ -75,7 +100,7 @@
       "description": "16px"
     },
     "xlarge": {
-      "value": "{space.medium}*(12* {space.scale.base} )",
+      "value": "{space.medium}*(12* {scale.space} )",
       "type": "spacing",
       "description": "24px"
     }
@@ -1219,56 +1244,44 @@
       }
     },
     "line-height": {
-      "scale": {
-        "for-title": {
-          "value": "1.10",
-          "type": "lineHeights",
-          "description": "Token used as a calculation value to acieve the line-height scale in REM units, for larger typography types."
-        },
-        "for-body": {
-          "value": "1.40",
-          "type": "lineHeights",
-          "description": "Token used as a calculation value to acieve the line-height scale in REM units, for basic typography types."
-        }
-      },
       "micro": {
-        "value": "{typography.font-size.micro}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.micro}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "xsmall": {
-        "value": "{typography.font-size.xsmall}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.xsmall}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "small": {
-        "value": "{typography.font-size.small}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.small}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "medium": {
-        "value": "{typography.font-size.medium}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.medium}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "medium-copy": {
-        "value": "{typography.font-size.medium-copy}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.medium-copy}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "large": {
-        "value": "{typography.font-size.large}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.large}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "large-copy": {
-        "value": "{typography.font-size.large-copy}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.large-copy}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "xlarge": {
-        "value": "{typography.font-size.xlarge}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.xlarge}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "2xlarge": {
-        "value": "{typography.font-size.2xlarge}* {typography.line-height.scale.for-body}",
+        "value": "{typography.font-size.2xlarge}* {scale.line-height.for-body}",
         "type": "lineHeights"
       },
       "3xlarge": {
-        "value": "{typography.font-size.3xlarge}* {typography.line-height.scale.for-title}",
+        "value": "{typography.font-size.3xlarge}* {scale.line-height.for-title}",
         "type": "lineHeights"
       }
     },
@@ -1287,25 +1300,18 @@
       }
     },
     "font-size": {
-      "scale": {
-        "base": {
-          "value": "0.125rem",
-          "type": "fontSizes",
-          "description": "Token used as a calculation value to acieve the font-size scale in REM units."
-        }
-      },
       "micro": {
-        "value": "{typography.font-size.medium}- (3*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}- (3*{scale.font-size})",
         "type": "fontSizes",
         "description": "10px"
       },
       "xsmall": {
-        "value": "{typography.font-size.medium}- (2*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}- (2*{scale.font-size})",
         "type": "fontSizes",
         "description": "12px\n"
       },
       "small": {
-        "value": "{typography.font-size.medium}- {typography.font-size.scale.base}",
+        "value": "{typography.font-size.medium}- {scale.font-size}",
         "type": "fontSizes",
         "description": "14px"
       },
@@ -1315,32 +1321,32 @@
         "description": "16px"
       },
       "medium-copy": {
-        "value": "{typography.font-size.medium}+ {typography.font-size.scale.base}",
+        "value": "{typography.font-size.medium}+ {scale.font-size}",
         "type": "fontSizes",
         "description": "18px"
       },
       "large": {
-        "value": "{typography.font-size.medium}+ (2*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}+ (2*{scale.font-size})",
         "type": "fontSizes",
         "description": "20px"
       },
       "large-copy": {
-        "value": "{typography.font-size.medium}+ (3*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}+ (3*{scale.font-size})",
         "type": "fontSizes",
         "description": "22px"
       },
       "xlarge": {
-        "value": "{typography.font-size.medium}+ (4*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}+ (4*{scale.font-size})",
         "type": "fontSizes",
         "description": "24px"
       },
       "2xlarge": {
-        "value": "{typography.font-size.medium}+ (8*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}+ (8*{scale.font-size})",
         "type": "fontSizes",
         "description": "32px"
       },
       "3xlarge": {
-        "value": "{typography.font-size.medium}+ (16*{typography.font-size.scale.base})",
+        "value": "{typography.font-size.medium}+ (16*{scale.font-size})",
         "type": "fontSizes",
         "description": "48px"
       }
@@ -1592,16 +1598,6 @@
     "rem": {
       "value": "1rem",
       "type": "dimension"
-    }
-  },
-  "scale": {
-    "hsl-dark": {
-      "value": "0.075",
-      "type": "other"
-    },
-    "hsl-light": {
-      "value": "0.06",
-      "type": "other"
     }
   },
   "assets": {
