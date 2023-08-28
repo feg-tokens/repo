@@ -1,106 +1,69 @@
 {
   "size": {
     "4xsmall": {
-      "value": "{size.medium}*0.20",
+      "value": "{base.size} -({scale.sizing}*4)",
       "type": "sizing",
       "description": "8px"
     },
     "3xsmall": {
-      "value": "{size.medium}*0.30",
+      "value": "{base.size}-({scale.sizing}*3.5)",
       "type": "sizing",
       "description": "12px"
     },
     "2xsmall": {
-      "value": "{size.medium}*0.40",
+      "value": "{base.size}-({scale.sizing}*3)",
       "type": "sizing",
       "description": "16px"
     },
     "xsmall": {
-      "value": "{size.medium}*0.60",
+      "value": "{base.size}-({scale.sizing}*2)",
       "type": "sizing",
       "description": "24px"
     },
     "small": {
-      "value": "{size.medium}*0.80",
+      "value": "{base.size}-{scale.sizing}",
       "type": "sizing",
       "description": "32px"
     },
     "medium": {
-      "value": "2.5*1rem",
+      "value": "{base.size}",
       "type": "sizing",
       "description": "40px"
     },
     "large": {
-      "value": "{size.medium}*1.1",
-      "type": "sizing",
-      "description": "44px"
-    },
-    "xlarge": {
-      "value": "{size.medium}*1.2",
+      "value": "{base.size}+{scale.sizing}",
       "type": "sizing",
       "description": "48px"
     }
   },
-  "scale": {
-    "space": {
-      "value": "0.25",
-      "type": "spacing",
-      "description": "Token used as a calculation value to acieve the spacing scale."
-    },
-    "line-height": {
-      "for-title": {
-        "value": "1.10",
-        "type": "lineHeights",
-        "description": "Token used as a calculation value to acieve the line-height scale in REM units, for larger typography types."
-      },
-      "for-body": {
-        "value": "1.40",
-        "type": "lineHeights",
-        "description": "Token used as a calculation value to acieve the line-height scale in REM units, for basic typography types."
-      }
-    },
-    "font-size": {
-      "value": "0.125rem",
-      "type": "fontSizes",
-      "description": "Token used as a calculation value to acieve the font-size scale in REM units."
-    },
-    "hsl-dark": {
-      "value": "0.075",
-      "type": "other"
-    },
-    "hsl-light": {
-      "value": "0.06",
-      "type": "other"
-    }
-  },
   "space": {
     "small": {
-      "value": "{space.medium}*(2* {scale.space} )",
+      "value": "{base.space}* {scale.space}",
       "type": "spacing",
       "description": "4px"
     },
     "medium-s": {
-      "value": "{space.medium}*(3* {scale.space} )",
+      "value": "{base.space} *({scale.space}*1.5)",
       "type": "spacing",
       "description": "6px"
     },
     "medium": {
-      "value": "0.5rem",
+      "value": "{base.space}",
       "type": "spacing",
       "description": "8px"
     },
     "medium-l": {
-      "value": "{space.medium}*(6* {scale.space} )",
+      "value": "{base.space} *({scale.space}*3)",
       "type": "spacing",
       "description": "12px"
     },
     "large": {
-      "value": "{space.medium}*2",
+      "value": "{base.space}*({scale.space}*4)",
       "type": "spacing",
       "description": "16px"
     },
     "xlarge": {
-      "value": "{space.medium}*(12* {scale.space} )",
+      "value": "{base.space}*({scale.space}*6)",
       "type": "spacing",
       "description": "24px"
     }
@@ -156,11 +119,27 @@
       "black": {
         "value": "#000",
         "type": "color"
+      },
+      "grey": {
+        "value": "#56566c",
+        "type": "color"
+      },
+      "red": {
+        "value": "#cf2f17",
+        "type": "color"
+      },
+      "green": {
+        "value": "#17cf2f",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#1767cf",
+        "type": "color"
       }
     },
     "grey": {
       "10": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Backgournd",
         "$extensions": {
@@ -174,7 +153,7 @@
         }
       },
       "20": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Input",
         "$extensions": {
@@ -188,7 +167,7 @@
         }
       },
       "30": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "2nd",
         "$extensions": {
@@ -202,7 +181,7 @@
         }
       },
       "40": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "1st",
         "$extensions": {
@@ -216,7 +195,7 @@
         }
       },
       "50": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Panel",
         "$extensions": {
@@ -230,7 +209,7 @@
         }
       },
       "60": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Action",
         "$extensions": {
@@ -244,7 +223,7 @@
         }
       },
       "70": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "NOTE: Can be disabled for dark?",
         "$extensions": {
@@ -258,7 +237,7 @@
         }
       },
       "80": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -271,7 +250,7 @@
         }
       },
       "90": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -284,7 +263,7 @@
         }
       },
       "100": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Background",
         "$extensions": {
@@ -298,7 +277,7 @@
         }
       },
       "110": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Input",
         "$extensions": {
@@ -312,7 +291,7 @@
         }
       },
       "120": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "2nd",
         "$extensions": {
@@ -326,7 +305,7 @@
         }
       },
       "130": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "1st",
         "$extensions": {
@@ -340,7 +319,7 @@
         }
       },
       "140": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Action/Panel - Hover",
         "$extensions": {
@@ -353,12 +332,8 @@
           }
         }
       },
-      "base": {
-        "value": "#56566c",
-        "type": "color"
-      },
       "30+": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "2nd - Hover",
         "$extensions": {
@@ -372,7 +347,7 @@
         }
       },
       "40+": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "1st - Hover",
         "$extensions": {
@@ -386,7 +361,7 @@
         }
       },
       "50+": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Panel - Hover\n",
         "$extensions": {
@@ -400,7 +375,7 @@
         }
       },
       "60+": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "Action - Hover",
         "$extensions": {
@@ -414,7 +389,7 @@
         }
       },
       "120-": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "2nd - Hover",
         "$extensions": {
@@ -428,7 +403,7 @@
         }
       },
       "130-": {
-        "value": "{palette.grey.base}",
+        "value": "{palette.base.grey}",
         "type": "color",
         "description": "1st - Hover",
         "$extensions": {
@@ -444,7 +419,7 @@
     },
     "red": {
       "10": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -457,7 +432,7 @@
         }
       },
       "20": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -470,7 +445,7 @@
         }
       },
       "30": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -483,7 +458,7 @@
         }
       },
       "40": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -496,7 +471,7 @@
         }
       },
       "50": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -509,7 +484,7 @@
         }
       },
       "60": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "description": "Error text for light themes, recommended contrast (5.6) against white text",
         "$extensions": {
@@ -523,7 +498,7 @@
         }
       },
       "70": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -536,7 +511,7 @@
         }
       },
       "80": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -549,7 +524,7 @@
         }
       },
       "90": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -562,7 +537,7 @@
         }
       },
       "100": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -575,7 +550,7 @@
         }
       },
       "110": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -588,7 +563,7 @@
         }
       },
       "120": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "description": "Error text for Dark Theme",
         "$extensions": {
@@ -602,7 +577,7 @@
         }
       },
       "130": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -615,7 +590,7 @@
         }
       },
       "140": {
-        "value": "{palette.red.base}",
+        "value": "{palette.base.red}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -626,15 +601,11 @@
             }
           }
         }
-      },
-      "base": {
-        "value": "#cf2f17",
-        "type": "color"
       }
     },
     "green": {
       "10": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "description": "Input",
         "$extensions": {
@@ -648,7 +619,7 @@
         }
       },
       "20": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "description": "Positive text for light themes, recommended contrast (5.3) against white text",
         "$extensions": {
@@ -662,7 +633,7 @@
         }
       },
       "30": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "description": "3.5 Contrast with white text",
         "$extensions": {
@@ -676,7 +647,7 @@
         }
       },
       "40": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -689,7 +660,7 @@
         }
       },
       "50": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -702,7 +673,7 @@
         }
       },
       "60": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "description": "Positive text for dark themes",
         "$extensions": {
@@ -716,7 +687,7 @@
         }
       },
       "70": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -729,7 +700,7 @@
         }
       },
       "80": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -742,7 +713,7 @@
         }
       },
       "90": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -755,7 +726,7 @@
         }
       },
       "100": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -768,7 +739,7 @@
         }
       },
       "110": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -781,7 +752,7 @@
         }
       },
       "120": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -794,7 +765,7 @@
         }
       },
       "130": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -807,7 +778,7 @@
         }
       },
       "140": {
-        "value": "{palette.green.base}",
+        "value": "{palette.base.green}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -818,15 +789,11 @@
             }
           }
         }
-      },
-      "base": {
-        "value": "#17cf2f",
-        "type": "color"
       }
     },
     "blue": {
       "10": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -839,7 +806,7 @@
         }
       },
       "20": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -852,7 +819,7 @@
         }
       },
       "30": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -865,7 +832,7 @@
         }
       },
       "40": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -878,7 +845,7 @@
         }
       },
       "50": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -891,7 +858,7 @@
         }
       },
       "60": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "description": "Recommended contrast (5.1) against white text",
         "$extensions": {
@@ -905,7 +872,7 @@
         }
       },
       "70": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -918,7 +885,7 @@
         }
       },
       "80": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "description": "3.5 contrast with white text",
         "$extensions": {
@@ -932,7 +899,7 @@
         }
       },
       "90": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -945,7 +912,7 @@
         }
       },
       "100": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -958,7 +925,7 @@
         }
       },
       "110": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "description": "Dark theme info text",
         "$extensions": {
@@ -972,7 +939,7 @@
         }
       },
       "120": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -985,7 +952,7 @@
         }
       },
       "130": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -998,7 +965,7 @@
         }
       },
       "140": {
-        "value": "{palette.blue.base}",
+        "value": "{palette.base.blue}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -1009,10 +976,6 @@
             }
           }
         }
-      },
-      "base": {
-        "value": "#1767cf",
-        "type": "color"
       }
     },
     "orange": {
@@ -1068,27 +1031,27 @@
   },
   "radius": {
     "xsmall": {
-      "value": "{radius.medium}*0.25",
+      "value": "{base.border} * ({scale.border} *0.5)",
       "type": "borderRadius"
     },
     "small": {
-      "value": "{radius.medium}*0.5",
+      "value": "{base.border} * {scale.border}",
       "type": "borderRadius"
     },
     "medium": {
-      "value": "8",
+      "value": "{base.border}",
       "type": "borderRadius"
     },
     "large": {
-      "value": "{radius.medium}*1.5",
+      "value": "{base.border} * ({scale.border} *3)",
       "type": "borderRadius"
     },
     "xlarge": {
-      "value": "{radius.medium}*2",
+      "value": "{base.border} * ({scale.border} *4)",
       "type": "borderRadius"
     },
     "2xlarge": {
-      "value": "{radius.medium}*3",
+      "value": "{base.border} * ({scale.border} *6)",
       "type": "borderRadius"
     }
   },
@@ -1301,52 +1264,52 @@
     },
     "font-size": {
       "micro": {
-        "value": "{typography.font-size.medium}- (3*{scale.font-size})",
+        "value": "{base.font-size}- (3*{scale.font-size})",
         "type": "fontSizes",
         "description": "10px"
       },
       "xsmall": {
-        "value": "{typography.font-size.medium}- (2*{scale.font-size})",
+        "value": "{base.font-size}- (2*{scale.font-size})",
         "type": "fontSizes",
         "description": "12px\n"
       },
       "small": {
-        "value": "{typography.font-size.medium}- {scale.font-size}",
+        "value": "{base.font-size}- {scale.font-size}",
         "type": "fontSizes",
         "description": "14px"
       },
       "medium": {
-        "value": "1rem",
+        "value": "{base.font-size}",
         "type": "fontSizes",
         "description": "16px"
       },
       "medium-copy": {
-        "value": "{typography.font-size.medium}+ {scale.font-size}",
+        "value": "{base.font-size}+ {scale.font-size}",
         "type": "fontSizes",
         "description": "18px"
       },
       "large": {
-        "value": "{typography.font-size.medium}+ (2*{scale.font-size})",
+        "value": "{base.font-size}+ (2*{scale.font-size})",
         "type": "fontSizes",
         "description": "20px"
       },
       "large-copy": {
-        "value": "{typography.font-size.medium}+ (3*{scale.font-size})",
+        "value": "{base.font-size}+ (3*{scale.font-size})",
         "type": "fontSizes",
         "description": "22px"
       },
       "xlarge": {
-        "value": "{typography.font-size.medium}+ (4*{scale.font-size})",
+        "value": "{base.font-size}+ (4*{scale.font-size})",
         "type": "fontSizes",
         "description": "24px"
       },
       "2xlarge": {
-        "value": "{typography.font-size.medium}+ (8*{scale.font-size})",
+        "value": "{base.font-size}+ (8*{scale.font-size})",
         "type": "fontSizes",
         "description": "32px"
       },
       "3xlarge": {
-        "value": "{typography.font-size.medium}+ (16*{scale.font-size})",
+        "value": "{base.font-size}+ (16*{scale.font-size})",
         "type": "fontSizes",
         "description": "48px"
       }
@@ -1594,12 +1557,6 @@
       "type": "opacity"
     }
   },
-  "dimension": {
-    "rem": {
-      "value": "1rem",
-      "type": "dimension"
-    }
-  },
   "assets": {
     "logo": {
       "FTN": {
@@ -1614,6 +1571,67 @@
         "value": "https://hrsport.hr/wp-content/uploads/2021/11/PSK-Prva-Sportska-Kladionica-logo.jpg",
         "type": "asset"
       }
+    }
+  },
+  "base": {
+    "size": {
+      "value": "2.5rem",
+      "type": "sizing",
+      "description": "40px. — Used as the base value in the size token calculations."
+    },
+    "space": {
+      "value": "0.5rem",
+      "type": "spacing",
+      "description": "8px. — Used as the base value in the space token calculations."
+    },
+    "border": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "font-size": {
+      "value": "1rem",
+      "type": "fontSizes"
+    }
+  },
+  "scale": {
+    "sizing": {
+      "value": "0.5rem",
+      "type": "sizing",
+      "description": "8px. — Used for step definition in size token scale."
+    },
+    "space": {
+      "value": "0.5",
+      "type": "spacing",
+      "description": "Used for step definition in space token scale."
+    },
+    "border": {
+      "value": "0.5",
+      "type": "borderRadius"
+    },
+    "line-height": {
+      "for-title": {
+        "value": "1.10",
+        "type": "lineHeights",
+        "description": "Token used as a calculation value to acieve the line-height scale in REM units, for larger typography types."
+      },
+      "for-body": {
+        "value": "1.40",
+        "type": "lineHeights",
+        "description": "Token used as a calculation value to acieve the line-height scale in REM units, for basic typography types."
+      }
+    },
+    "font-size": {
+      "value": "0.125rem",
+      "type": "fontSizes",
+      "description": "Token used as a calculation value to acieve the font-size scale in REM units."
+    },
+    "hsl-dark": {
+      "value": "0.075",
+      "type": "other"
+    },
+    "hsl-light": {
+      "value": "0.06",
+      "type": "other"
     }
   }
 }
