@@ -1,27 +1,27 @@
 {
   "size": {
     "4xsmall": {
-      "value": "{base.size} -({scale.sizing}*4)",
+      "value": "{base.size} -({scale.size}*4)",
       "type": "sizing",
       "description": "8px"
     },
     "3xsmall": {
-      "value": "{base.size}-({scale.sizing}*3.5)",
+      "value": "{base.size}-({scale.size}*3.5)",
       "type": "sizing",
       "description": "12px"
     },
     "2xsmall": {
-      "value": "{base.size}-({scale.sizing}*3)",
+      "value": "{base.size}-({scale.size}*3)",
       "type": "sizing",
       "description": "16px"
     },
     "xsmall": {
-      "value": "{base.size}-({scale.sizing}*2)",
+      "value": "{base.size}-({scale.size}*2)",
       "type": "sizing",
       "description": "24px"
     },
     "small": {
-      "value": "{base.size}-{scale.sizing}",
+      "value": "{base.size}-{scale.size}",
       "type": "sizing",
       "description": "32px"
     },
@@ -31,7 +31,7 @@
       "description": "40px"
     },
     "large": {
-      "value": "{base.size}+{scale.sizing}",
+      "value": "{base.size}+{scale.size}",
       "type": "sizing",
       "description": "48px"
     }
@@ -1594,7 +1594,7 @@
     }
   },
   "scale": {
-    "sizing": {
+    "size": {
       "value": "0.5rem",
       "type": "sizing",
       "description": "8px. — Used for step definition in size token scale."
