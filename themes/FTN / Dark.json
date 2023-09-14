@@ -209,8 +209,7 @@
           "borderRadius": "{radius.medium}",
           "fill": "{color.surface.input}",
           "borderColor": "{color.border.input}",
-          "boxShadow": "{shadow.in.small}",
-          "borderWidth": "{border-width.1px}"
+          "boxShadow": "{shadow.in.small}"
         },
         "type": "composition"
       },

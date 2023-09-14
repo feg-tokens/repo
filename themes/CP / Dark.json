@@ -5,20 +5,20 @@
         "value": "{palette.brand.casa-primary}",
         "type": "color"
       },
-      "brand-dark": {
-        "value": "$palette.brand.casa-primary-dark",
-        "type": "color"
-      },
-      "highlighted": {
-        "value": "$palette.green.30",
-        "type": "color"
-      },
       "selected": {
         "value": "{palette.brand.casa-primary}",
         "type": "color"
       },
       "active": {
         "value": "{palette.brand.casa-primary}",
+        "type": "color"
+      },
+      "brand-dark": {
+        "value": "$palette.brand.casa-primary-dark",
+        "type": "color"
+      },
+      "highlighted": {
+        "value": "$palette.green.30",
         "type": "color"
       },
       "betslip-badge": {
@@ -208,9 +208,8 @@
         "value": {
           "borderRadius": "{radius.medium}",
           "fill": "{color.surface.input}",
-          "boxShadow": "{shadow.in.small}",
           "borderColor": "{color.border.input}",
-          "borderWidth": "{border-width.1px}"
+          "boxShadow": "{shadow.in.small}"
         },
         "type": "composition"
       },
