@@ -45,8 +45,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global": "source",
-      "BASE / Light": "enabled",
-      "CP / Dark": "enabled"
+      "CP / Dark": "enabled",
+      "BASE / Dark": "enabled"
     }
   },
   {
