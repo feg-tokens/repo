@@ -149,7 +149,11 @@
         "type": "color"
       },
       "error": {
-        "value": "{palette.red.110}",
+        "value": "{palette.red.120}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{color.border.input}",
         "type": "color"
       }
     },
