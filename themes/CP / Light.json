@@ -244,8 +244,7 @@
       "read-only": {
         "value": {
           "borderRadius": "{radius.medium}",
-          "fill": "none",
-          "borderColor": "{color.content.disabled}",
+          "borderColor": "{color.border.input}",
           "boxShadow": "{shadow.none}"
         },
         "type": "composition"

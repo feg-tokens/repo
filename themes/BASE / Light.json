@@ -145,7 +145,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "$palette.grey.60",
+        "value": "$palette.grey.90",
         "type": "color"
       },
       "error": {
@@ -175,7 +175,7 @@
         "type": "color"
       },
       "btn-disabled": {
-        "value": "$palette.grey.50",
+        "value": "$palette.grey.90",
         "type": "color"
       },
       "input": {

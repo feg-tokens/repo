@@ -296,7 +296,7 @@
     },
     "group": "Brand",
     "$figmaCollectionId": "VariableCollectionId:11:3373",
-    "$figmaModeId": "11:10",
+    "$figmaModeId": "183:1",
     "$figmaVariableReferences": {
       "color.surface.brand": "7be191c82456979b48713cbdad079410cd53f015",
       "color.surface.brand-dark": "a42220b966ba0289b452fd44dfb21500bae82ea7",
@@ -347,7 +347,7 @@
     },
     "group": "Brand",
     "$figmaCollectionId": "VariableCollectionId:11:3373",
-    "$figmaModeId": "11:11",
+    "$figmaModeId": "183:2",
     "$figmaVariableReferences": {
       "color.surface.brand": "7be191c82456979b48713cbdad079410cd53f015",
       "color.surface.brand-dark": "a42220b966ba0289b452fd44dfb21500bae82ea7",
