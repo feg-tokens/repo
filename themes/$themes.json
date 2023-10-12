@@ -130,7 +130,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global": "source",
-      "BASE / Dark": "enabled"
+      "BASE/Dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:11:3332",
     "$figmaModeId": "11:8",
@@ -185,7 +185,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global": "source",
-      "BASE / Light": "enabled"
+      "BASE/Light": "enabled"
     },
     "group": "Theme",
     "$figmaCollectionId": "VariableCollectionId:11:3332",
@@ -240,8 +240,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global": "source",
-      "BASE / Dark": "source",
-      "FTN / Dark": "enabled"
+      "BASE/Dark": "source",
+      "FTN/Dark": "enabled"
     },
     "group": "Brand",
     "$figmaCollectionId": "VariableCollectionId:11:3373",
@@ -291,8 +291,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global": "source",
-      "BASE / Light": "source",
-      "CP / Light": "enabled"
+      "BASE/Light": "source",
+      "CP/Light": "enabled"
     },
     "group": "Brand",
     "$figmaCollectionId": "VariableCollectionId:11:3373",
@@ -342,8 +342,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global": "source",
-      "BASE / Light": "source",
-      "PSK / Light": "enabled"
+      "BASE/Light": "source",
+      "PSK/Light": "enabled"
     },
     "group": "Brand",
     "$figmaCollectionId": "VariableCollectionId:11:3373",
