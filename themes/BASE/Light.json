@@ -204,89 +204,9 @@
         "value": "rgba({palette.grey.20} , {opacity.glass})",
         "type": "color"
       },
-      "error": {
-        "value": "rgba( {color.meaning.negative} , {opacity.glass})",
-        "type": "color"
-      },
-      "info": {
-        "value": "rgba( {color.meaning.info} , {opacity.glass})",
-        "type": "color"
-      },
-      "positive": {
-        "value": "rgba( {color.meaning.positive} , {opacity.glass})",
-        "type": "color"
-      },
       "gradient": {
         "value": "linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
         "type": "color"
-      }
-    }
-  },
-  "feedback": {
-    "tooltip": {
-      "default": {
-        "value": {
-          "fill": "{color.overlay.tooltip-default}",
-          "backgroundBlur": "8",
-          "borderRadius": "{radius.small}",
-          "boxShadow": "{shadow.out.large}",
-          "verticalPadding": "{space.small}",
-          "horizontalPadding": "{space.medium-s}"
-        },
-        "type": "composition"
-      },
-      "error": {
-        "value": {
-          "fill": "{color.overlay.error}",
-          "backgroundBlur": "8",
-          "borderRadius": "{radius.small}",
-          "boxShadow": "{shadow.out.large}"
-        },
-        "type": "composition"
-      },
-      "info": {
-        "value": {
-          "fill": "{color.overlay.info}",
-          "backgroundBlur": "8",
-          "borderRadius": "{radius.small}",
-          "boxShadow": "{shadow.out.large}"
-        },
-        "type": "composition"
-      }
-    },
-    "snackbar": {
-      "alert": {
-        "value": {
-          "fill": "{color.overlay.error}",
-          "horizontalPadding": "{space.large}",
-          "verticalPadding": "{space.medium-l}",
-          "borderRadius": "{radius.medium}",
-          "boxShadow": "{shadow.out.xlarge}",
-          "backgroundBlur": "12"
-        },
-        "type": "composition"
-      },
-      "info": {
-        "value": {
-          "fill": "{color.overlay.info}",
-          "horizontalPadding": "{space.large}",
-          "verticalPadding": "{space.medium-l}",
-          "borderRadius": "{radius.medium}",
-          "boxShadow": "{shadow.out.xlarge}",
-          "backgroundBlur": "12"
-        },
-        "type": "composition"
-      },
-      "positive": {
-        "value": {
-          "fill": "{color.overlay.positive}",
-          "horizontalPadding": "{space.large}",
-          "verticalPadding": "{space.medium-l}",
-          "borderRadius": "{radius.medium}",
-          "boxShadow": "{shadow.out.xlarge}",
-          "backgroundBlur": "12"
-        },
-        "type": "composition"
       }
     }
   },

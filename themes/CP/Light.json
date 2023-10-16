@@ -200,6 +200,20 @@
         "value": "{palette.brand.casa-primary}",
         "type": "color"
       }
+    },
+    "overlay": {
+      "error": {
+        "value": "rgba( {color.meaning.negative} , {opacity.glass})",
+        "type": "color"
+      },
+      "info": {
+        "value": "rgba( {color.meaning.info} , {opacity.glass})",
+        "type": "color"
+      },
+      "positive": {
+        "value": "rgba( {color.meaning.positive} , {opacity.glass})",
+        "type": "color"
+      }
     }
   },
   "input": {
@@ -977,6 +991,74 @@
           },
           "type": "composition"
         }
+      }
+    }
+  },
+  "feedback": {
+    "tooltip": {
+      "default": {
+        "value": {
+          "fill": "{color.overlay.tooltip-default}",
+          "backgroundBlur": "8",
+          "borderRadius": "{radius.small}",
+          "boxShadow": "{shadow.out.large}",
+          "verticalPadding": "{space.small}",
+          "horizontalPadding": "{space.medium-s}"
+        },
+        "type": "composition"
+      },
+      "error": {
+        "value": {
+          "fill": "{color.overlay.error}",
+          "backgroundBlur": "8",
+          "borderRadius": "{radius.small}",
+          "boxShadow": "{shadow.out.large}"
+        },
+        "type": "composition"
+      },
+      "info": {
+        "value": {
+          "fill": "{color.overlay.info}",
+          "backgroundBlur": "8",
+          "borderRadius": "{radius.small}",
+          "boxShadow": "{shadow.out.large}"
+        },
+        "type": "composition"
+      }
+    },
+    "snackbar": {
+      "alert": {
+        "value": {
+          "fill": "{color.overlay.error}",
+          "horizontalPadding": "{space.large}",
+          "verticalPadding": "{space.medium-l}",
+          "borderRadius": "{radius.medium}",
+          "boxShadow": "{shadow.out.xlarge}",
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
+      },
+      "info": {
+        "value": {
+          "fill": "{color.overlay.info}",
+          "horizontalPadding": "{space.large}",
+          "verticalPadding": "{space.medium-l}",
+          "borderRadius": "{radius.medium}",
+          "boxShadow": "{shadow.out.xlarge}",
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
+      },
+      "positive": {
+        "value": {
+          "fill": "{color.overlay.positive}",
+          "horizontalPadding": "{space.large}",
+          "verticalPadding": "{space.medium-l}",
+          "borderRadius": "{radius.medium}",
+          "boxShadow": "{shadow.out.xlarge}",
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
       }
     }
   },
