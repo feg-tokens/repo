@@ -17,11 +17,11 @@
     },
     "surface": {
       "primary": {
-        "value": "$palette.grey.130",
+        "value": "$palette.base.white",
         "type": "color"
       },
       "secondary": {
-        "value": "$palette.grey.120",
+        "value": "$palette.grey.130",
         "type": "color"
       },
       "panel": {

@@ -255,5 +255,47 @@
       },
       "type": "composition"
     }
+  },
+  "surface": {
+    "primary": {
+      "value": "$palette.grey.40",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "$palette.grey.30",
+      "type": "color"
+    },
+    "panel": {
+      "value": "$palette.grey.50",
+      "type": "color"
+    },
+    "action": {
+      "value": "$palette.grey.60",
+      "type": "color"
+    },
+    "gradient": {
+      "value": "linear-gradient(0deg, $color.surface.primary 0%, $color.surface.secondary 100%);",
+      "type": "color"
+    },
+    "inverted-bw": {
+      "value": "$palette.base.black",
+      "type": "color"
+    },
+    "input": {
+      "value": "$palette.grey.20",
+      "type": "color"
+    },
+    "input-error": {
+      "value": "$palette.red.10",
+      "type": "color"
+    },
+    "input-text-inactive": {
+      "value": "$palette.grey.70",
+      "type": "color"
+    },
+    "navigation": {
+      "value": "$palette.grey.10",
+      "type": "color"
+    }
   }
 }
