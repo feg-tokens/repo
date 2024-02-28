@@ -293,7 +293,6 @@
       "120": {
         "value": "{palette.base.grey}",
         "type": "color",
-        "description": "2nd",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -302,26 +301,12 @@
               "space": "hsl"
             }
           }
-        }
+        },
+        "description": "2nd"
       },
       "130": {
         "value": "{palette.base.grey}",
         "type": "color",
-        "description": "1st",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.94",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "140": {
-        "value": "{palette.base.grey}",
-        "type": "color",
-        "description": "Action/Panel - Hover",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -330,7 +315,8 @@
               "space": "hsl"
             }
           }
-        }
+        },
+        "description": "Action/Panel - Hover"
       }
     },
     "red": {

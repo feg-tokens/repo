@@ -2,7 +2,7 @@
   "color": {
     "background": {
       "base": {
-        "value": "$palette.grey.100",
+        "value": "$palette.grey.120",
         "type": "color"
       },
       "gm-base": {
