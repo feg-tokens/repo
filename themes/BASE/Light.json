@@ -205,8 +205,53 @@
         "type": "color"
       },
       "gradient": {
-        "value": "linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
+        "value": "linear-gradient (0deg, rgba( {palette.base.black} , 0.4) 0%, rgba( {palette.base.black} , 0) 100%)",
         "type": "color"
+      },
+      "gradient-primary-on-avatar-edit": {
+        "value": "linear-gradient (0deg, rgba( {color.surface.primary}, 0.7) 0%, rgba( {color.surface.primary} , 1) 100%)",
+        "type": "color"
+      }
+    },
+    "odd-button": {
+      "default": {
+        "value": "{palette.base.black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.06",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "hover": {
+        "value": "{palette.base.black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "value": "{palette.base.black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
       }
     }
   },
@@ -215,6 +260,13 @@
       "value": {
         "fill": "{color.overlay.navigation}",
         "backgroundBlur": "8"
+      },
+      "type": "composition"
+    },
+    "gradient-primary-on-avatar-edit": {
+      "value": {
+        "fill": "{color.overlay.gradient-primary-on-avatar-edit}",
+        "backgroundBlur": "10"
       },
       "type": "composition"
     }

@@ -44,11 +44,18 @@
       "palette.grey.40": "b693fd703076a8ac6ec57053534a5e52fa8d0e6b",
       "palette.grey.50": "8c0df5b916a948df9d166ff00c51f1286447571f",
       "palette.grey.60": "66c0e442e3dbe34143158e98c6fb85a4f1c931ba",
+      "palette.grey.62": "10a22c9abf5e2b5901ff681265abfea0f5f62b90",
+      "palette.grey.64": "e97578e2b1015169ac78091686690a89a8ceaa03",
+      "palette.grey.66": "41b18d83e24be8cad69685fbc88480bfd43d271a",
       "palette.grey.70": "28b154b95573cadd0c72fd52ae6fe820c4869b49",
       "palette.grey.80": "3a672db3b7fccb781752ca0c30f742c9830f8b1d",
+      "palette.grey.82": "497a5fbc653d65bd5a1710dcd56a9d2b4f2c37e3",
+      "palette.grey.84": "2c7218af0506c3685467577a681a587a5e671385",
       "palette.grey.90": "c3de05d7f5c1c53ad4c3496cc52c7aabfdd6e8d6",
       "palette.grey.100": "bbf6df77f968061ec06346545bebb9055224e65d",
       "palette.grey.110": "0da7d05d6f0706c1172dfe181aeed0390838313c",
+      "palette.grey.120": "aa874e38c1d2304568c4f4eee2fdaddd220d5f14",
+      "palette.grey.130": "8d05da323ae6abfc415abe590d603b6aa92fa254",
       "palette.red.10": "b6249b944f7c0f925dbc453aa69763dabad3a649",
       "palette.red.20": "2911481d4dc5d0f946fa84105e118c27e1ee5d86",
       "palette.red.30": "10177784135e253dbef60dacc86ac77cf5c36eb7",
@@ -117,9 +124,7 @@
       "base.border": "e52060a19e2c5a7caf519b0a0a69f66c2734a1ae",
       "scale.size": "8d27f6ee7fde3527ab3c610ccfcfd2aebb416c14",
       "scale.space": "7e5766ee997d010527f983f39da8674563545589",
-      "scale.border": "56aa7399a76f8a8502c71dfe193c3bdf7cebd31e",
-      "palette.grey.120": "aa874e38c1d2304568c4f4eee2fdaddd220d5f14",
-      "palette.grey.130": "8d05da323ae6abfc415abe590d603b6aa92fa254"
+      "scale.border": "56aa7399a76f8a8502c71dfe193c3bdf7cebd31e"
     },
     "group": "Base"
   },
@@ -171,7 +176,10 @@
       "color.border.input-sucess": "72ebbb06cad3ece7ad92845564fb855bf138de0a",
       "color.overlay.scrim": "98840a33503a93c2f6ee7891a79a12e897e4b5cf",
       "color.overlay.navigation": "85b96bf5d414896b6a0f047e25a0abc90f5939ee",
-      "color.overlay.tooltip-default": "fff8baa03fa6b65eed50e2d60acc754506f8bde3"
+      "color.overlay.tooltip-default": "fff8baa03fa6b65eed50e2d60acc754506f8bde3",
+      "color.odd-button.default": "cdd7caf36d912362147d71d3ad4330628951b6ea",
+      "color.odd-button.hover": "1944d9946f429b95fd4a4c15d99b991e52229379",
+      "color.odd-button.disabled": "c7ec2563fbdb6abeba3e0ac9f5b50d94594ab33b"
     },
     "group": "Theme"
   },
@@ -223,7 +231,10 @@
       "color.border.input-sucess": "72ebbb06cad3ece7ad92845564fb855bf138de0a",
       "color.overlay.scrim": "98840a33503a93c2f6ee7891a79a12e897e4b5cf",
       "color.overlay.navigation": "85b96bf5d414896b6a0f047e25a0abc90f5939ee",
-      "color.overlay.tooltip-default": "fff8baa03fa6b65eed50e2d60acc754506f8bde3"
+      "color.overlay.tooltip-default": "fff8baa03fa6b65eed50e2d60acc754506f8bde3",
+      "color.odd-button.default": "cdd7caf36d912362147d71d3ad4330628951b6ea",
+      "color.odd-button.hover": "1944d9946f429b95fd4a4c15d99b991e52229379",
+      "color.odd-button.disabled": "c7ec2563fbdb6abeba3e0ac9f5b50d94594ab33b"
     },
     "group": "Theme"
   },
@@ -236,45 +247,50 @@
       "BASE/Dark": "source",
       "FTN/Dark": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:11:3373",
-    "$figmaModeId": "11:12",
+    "$figmaCollectionId": "VariableCollectionId:1:154",
+    "$figmaModeId": "1:3",
     "$figmaVariableReferences": {
-      "color.surface.brand": "7be191c82456979b48713cbdad079410cd53f015",
-      "color.surface.selected": "ea8e9b20f21eb89c85765f1b45f373dcccfcfbf1",
-      "color.surface.active": "389b01f9c422e6e643f7d68c1e10589465dd451b",
-      "color.surface.brand-dark": "a42220b966ba0289b452fd44dfb21500bae82ea7",
-      "color.surface.highlighted": "9394835bafc13f1ad65dc85b1ed73d94d763a0cf",
-      "color.surface.betslip-badge": "778da48c391cc10e7eeed29c7510d71984be8612",
-      "color.surface-hover.brand": "aca6a1a33b1e0658e8e85246ab2678c403f1d9ad",
-      "color.surface-hover.selected": "6737f892951d8aba04332bc3b61d06308153ad17",
-      "color.surface-hover.active": "7edd40273407f7173404513c6fa8ee16a22ede15",
-      "color.content.selected": "2f9b79bfb8903b673abed5d775412ac93de0062e",
-      "color.content.active": "b5ad780e58bf07d901eeac562fda5da31a982fcf",
-      "color.content.on-brand": "4c34e695e5cdffbccd5151c6dbc3979cd2fe8d18",
-      "color.content.on-highlighted": "a76ba3899f188460c8947383becc35ec4569bf64",
-      "color.content.on-selected": "cf2222854cce6d2e7624fc85ed77c5c50aa7f06f",
-      "color.content.on-active": "270b8b55251cfec05b78be293a8846fdfb82234b",
-      "color.content.on-positive": "6772989990cbaebec35e75edaba74b4222ef352d",
-      "color.content.on-negative": "39ac591ef5d9c530f435ce89ae55a2c3931cc32b",
-      "color.content.on-warning": "0295fb1d528402d20611ee3b2eb9bb0ed33c399e",
-      "color.content.on-info": "e8f7be2508a7ad352c18ac8527db4354ae1fe45e",
-      "color.content.on-money": "cc98919e0df9a565eb32f576d44b69d423fe4e51",
-      "color.content.on-win": "7a7231fbd3a180bc0e18aa7d5af5f5fe57f58b69",
-      "color.content.on-live": "f703c4ec7314f8ba003bf0f08b69e307dd9a58da",
-      "color.content.on-betslip-badge": "8baad18bdf06debad1fc114477064a645c9cbd57",
-      "color.meaning.positive": "3cefd7384e79bb8899090ef758daccc642fb7bb8",
-      "color.meaning.negative": "452994cc15b93b12e72cc52ae08924805dc793f2",
-      "color.meaning.warning": "44eee4c270dbc07db66a93bed8af5aa17f1019ca",
-      "color.meaning.info": "792bb5618c103dd1ed46b133d95bec2440ee6867",
-      "color.meaning.money": "9c3fae61fe7f171d17580759eb835472003e964d",
-      "color.meaning.win": "0c108c8b8bfb535d151c5d634dab4165d5ef2abe",
-      "color.meaning.favorite": "c5bb1df15dd03bc3309f7437a8b25c5957320434",
-      "color.meaning.live": "a286ad83ccd6a8655af31f9726523fc900e28f23",
-      "color.meaning-hover.positive": "42e35cee4bcb332b8fd1ece4603d5f4a2bdd3c27",
-      "color.meaning-hover.negative": "1be8a1829ecfd8c998134fcc45a261e133ab9404",
-      "color.border.highlighted": "65bd22d4d2999894bb42342f748d7384b14d3191",
-      "color.border.active": "8e03583bbad546a546078d56788861bedb19faa1",
-      "color.border.selected": "24b5ef243a3ca24f2ef726c866fd7fbab5c3eb54"
+      "color.surface.brand": "8bc88fe9ce673898e40a3438fab8440f3808f5f8",
+      "color.surface.selected": "77550f27e8ab11e69a3162e142910d7f5af2cc07",
+      "color.surface.active": "9c63fe5e444ac89b9af709a3c9227c6beb21d8e0",
+      "color.surface.brand-dark": "32daf2bc7173683557cda4721dcedb3a649d6bc5",
+      "color.surface.highlighted": "7ed946aa2644b9f97b9f9ee0b27f12958709e9a0",
+      "color.surface.betslip-badge": "af38abd7f48060a666c46c6b068740677237cf4d",
+      "color.surface-hover.brand": "ef4a71a97e562320df9091c9e5e2ecc6d449cc4b",
+      "color.surface-hover.selected": "664b118cd3613d998752352d8711d49095363345",
+      "color.surface-hover.active": "aaad3b29ef6b8224e65eb9da24df3c15c7cbc1ac",
+      "color.content.selected": "f89e472732c5faf259a52c34a728bf92ca4078d7",
+      "color.content.active": "93bde8e3873504158e50d8817a639a35f4a6eb80",
+      "color.content.on-brand": "0fe55327b3b94f6cab13d1a7597393270e103507",
+      "color.content.on-highlighted": "279047f49cc5b5970e9733aa1edccbc39b1e353f",
+      "color.content.on-selected": "63f8e88ed4173e482c21b2d772913c7e98b3e2dc",
+      "color.content.on-active": "aba2facf663858eccda104ecf031cae4bd047d0e",
+      "color.content.on-positive": "81f1e0cf5e44e8f912fe06b812ff6606be6e7b8f",
+      "color.content.on-negative": "4b42c7b8a995ae18bbc4404a3eb20a1900c24f61",
+      "color.content.on-warning": "d5fac08c49b1aa324af7d9fcecdcf4fefc13314e",
+      "color.content.on-info": "53a5dffe28b06f66e2ae49b575d6895fd006adf0",
+      "color.content.on-money": "ca0ef19b7f1b273b6e58d2159abd9a503f5bf140",
+      "color.content.on-win": "039b113a56639295ca814d6a33eabeeeff8ff31d",
+      "color.content.on-live": "16533a749d55f9fe198fcb6489353faf88919202",
+      "color.content.on-betslip-badge": "46acb529044cd07d4b15efb71cd8136a30038758",
+      "color.meaning.positive": "4d079907d5e2b328c65972afb38aa617b390588a",
+      "color.meaning.negative": "f64471d8af7af3d143e90e6726de73c550a63e9a",
+      "color.meaning.warning": "7ae4b57ecca086925c6ce70f312b4ab98292433c",
+      "color.meaning.info": "50a3a3c4c2aff38206c1d22f5f1f02afdfb78eb2",
+      "color.meaning.money": "e17f52c867cee1338efefeb59f6821df44bedfe0",
+      "color.meaning.win": "395819137b07a4fee052ea07a4e4b4269010523a",
+      "color.meaning.favorite": "d5833c1366d7272a845d3882de777b4de980c1d9",
+      "color.meaning.live": "2d3ded02b6776df68efeb92640c7b54f616a750e",
+      "color.meaning-hover.positive": "1baf292755fe5455ef0412b0f7b5e5c20d5c8034",
+      "color.meaning-hover.negative": "7226ba59e4c591db1e6c3eb78cc0b049d172f509",
+      "color.border.highlighted": "15b7d0ad2842063f38ebb0323c89432f34cbf625",
+      "color.border.active": "e4ed915346c584737f8ffe88f308a6c8ebba06f5",
+      "color.border.selected": "bcbfea71fd1f478157564f0ba69dd7936b93954a",
+      "color.overlay.error": "30252829591a350de3040cc3ed7a2d3c53004950",
+      "color.overlay.info": "1d90ab532afed8a66dc454f7e360af955a11ba5a",
+      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d",
+      "color.surface.notification-badge": "e0d822c42a0bfbef013305c8d146c5d228723ae9",
+      "color.content.on-notification-badge": "43268924cd663cb721058df9b5da5dc490f323c5"
     },
     "group": "Brand"
   },
@@ -328,7 +344,9 @@
       "color.border.selected": "bcbfea71fd1f478157564f0ba69dd7936b93954a",
       "color.overlay.error": "30252829591a350de3040cc3ed7a2d3c53004950",
       "color.overlay.info": "1d90ab532afed8a66dc454f7e360af955a11ba5a",
-      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d"
+      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d",
+      "color.surface.notification-badge": "e0d822c42a0bfbef013305c8d146c5d228723ae9",
+      "color.content.on-notification-badge": "43268924cd663cb721058df9b5da5dc490f323c5"
     },
     "group": "Brand"
   },
@@ -382,7 +400,9 @@
       "color.border.selected": "bcbfea71fd1f478157564f0ba69dd7936b93954a",
       "color.overlay.error": "30252829591a350de3040cc3ed7a2d3c53004950",
       "color.overlay.info": "1d90ab532afed8a66dc454f7e360af955a11ba5a",
-      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d"
+      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d",
+      "color.surface.notification-badge": "e0d822c42a0bfbef013305c8d146c5d228723ae9",
+      "color.content.on-notification-badge": "43268924cd663cb721058df9b5da5dc490f323c5"
     },
     "group": "Brand"
   },
@@ -436,7 +456,9 @@
       "color.border.selected": "bcbfea71fd1f478157564f0ba69dd7936b93954a",
       "color.overlay.error": "30252829591a350de3040cc3ed7a2d3c53004950",
       "color.overlay.info": "1d90ab532afed8a66dc454f7e360af955a11ba5a",
-      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d"
+      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d",
+      "color.surface.notification-badge": "e0d822c42a0bfbef013305c8d146c5d228723ae9",
+      "color.content.on-notification-badge": "43268924cd663cb721058df9b5da5dc490f323c5"
     },
     "group": "Brand"
   },
@@ -490,7 +512,9 @@
       "color.border.selected": "bcbfea71fd1f478157564f0ba69dd7936b93954a",
       "color.overlay.error": "30252829591a350de3040cc3ed7a2d3c53004950",
       "color.overlay.info": "1d90ab532afed8a66dc454f7e360af955a11ba5a",
-      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d"
+      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d",
+      "color.surface.notification-badge": "e0d822c42a0bfbef013305c8d146c5d228723ae9",
+      "color.content.on-notification-badge": "43268924cd663cb721058df9b5da5dc490f323c5"
     },
     "group": "Brand"
   },
@@ -544,7 +568,9 @@
       "color.border.selected": "bcbfea71fd1f478157564f0ba69dd7936b93954a",
       "color.overlay.error": "30252829591a350de3040cc3ed7a2d3c53004950",
       "color.overlay.info": "1d90ab532afed8a66dc454f7e360af955a11ba5a",
-      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d"
+      "color.overlay.positive": "2944854ebd7a61863374c0e391d4280baf5a9f8d",
+      "color.content.on-notification-badge": "43268924cd663cb721058df9b5da5dc490f323c5",
+      "color.surface.notification-badge": "0286bac0a3e54234e38fbfaf361d64b43483e51f"
     },
     "group": "Brand"
   }
