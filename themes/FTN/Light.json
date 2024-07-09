@@ -28,6 +28,10 @@
       "notification-badge": {
         "value": "{palette.red.60}",
         "type": "color"
+      },
+      "CTA": {
+        "value": "{palette.brand.ftn-primary}",
+        "type": "color"
       }
     },
     "surface-hover": {
@@ -130,6 +134,10 @@
       },
       "on-notification-badge": {
         "value": "{palette.base.white}",
+        "type": "color"
+      },
+      "on-CTA": {
+        "value": "{palette.base.black}",
         "type": "color"
       }
     },
