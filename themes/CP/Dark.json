@@ -28,10 +28,6 @@
       "notification-badge": {
         "value": "{palette.brand.ftn-primary}",
         "type": "color"
-      },
-      "CTA": {
-        "value": "{palette.brand.casa-primary}",
-        "type": "color"
       }
     },
     "surface-hover": {
@@ -134,10 +130,6 @@
       },
       "on-notification-badge": {
         "value": "{palette.base.black}",
-        "type": "color"
-      },
-      "on-CTA": {
-        "value": "{palette.base.white}",
         "type": "color"
       }
     },
@@ -1087,6 +1079,20 @@
         "asset": "{assets.logo.CP}"
       },
       "type": "composition"
+    }
+  },
+  "color-perma": {
+    "surface": {
+      "active": {
+        "value": "{palette.brand.casa-primary}",
+        "type": "color"
+      }
+    },
+    "content": {
+      "on-active": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      }
     }
   }
 }

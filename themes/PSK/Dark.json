@@ -28,10 +28,6 @@
       "notification-badge": {
         "value": "{palette.red.60}",
         "type": "color"
-      },
-      "CTA": {
-        "value": "{palette.brand.psk-secondary}",
-        "type": "color"
       }
     },
     "surface-hover": {
@@ -133,10 +129,6 @@
         "type": "color"
       },
       "on-notification-badge": {
-        "value": "{palette.base.white}",
-        "type": "color"
-      },
-      "on-CTA": {
         "value": "{palette.base.white}",
         "type": "color"
       }
@@ -1087,6 +1079,20 @@
         "asset": "{assets.logo.PSK}"
       },
       "type": "composition"
+    }
+  },
+  "color-perma": {
+    "surface": {
+      "active": {
+        "value": "{palette.brand.psk-secondary}",
+        "type": "color"
+      }
+    },
+    "content": {
+      "on-active": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      }
     }
   }
 }

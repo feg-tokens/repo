@@ -3,7 +3,8 @@
     "background": {
       "base": {
         "value": "$palette.grey.10",
-        "type": "color"
+        "type": "color",
+        "description": "Primary background color for the entire page, serving as the foundational layer that supports all other UI elements and creates a cohesive backdrop for the overall design."
       },
       "gm-base": {
         "value": "$palette.grey.30",
@@ -18,23 +19,28 @@
     "surface": {
       "primary": {
         "value": "$palette.grey.30",
-        "type": "color"
+        "type": "color",
+        "description": "Base layer color applied to the majority of backgrounds, including containers, cards, and menus."
       },
       "secondary": {
         "value": "$palette.grey.20",
-        "type": "color"
+        "type": "color",
+        "description": "Secondary background color used for layered elements such as cards, containers, or overlays, providing depth and differentiation within the UI."
       },
       "panel": {
         "value": "$palette.grey.40",
-        "type": "color"
+        "type": "color",
+        "description": "Background color applied to panels, typically used for modular sections or sidebars, creating separation and structure within the interface."
       },
       "action": {
         "value": "$palette.grey.50",
-        "type": "color"
+        "type": "color",
+        "description": "Neutral color for interactive elements like buttons and icon links, designed to become more prominent upon interaction, indicating potential user actions without being overly emphasized in the default state."
       },
       "gradient": {
         "value": "linear-gradient(0deg, $color.surface.primary 0%, $color.surface.secondary 100%);",
-        "type": "color"
+        "type": "color",
+        "description": "This gradient transitions verticaly from the primary surface color token ($color.surface.primary) at the top (0%) to the secondary surface color token ($color.surface.secondary) at the bottom (100%)."
       },
       "inverted-bw": {
         "value": "$palette.base.black",
@@ -42,11 +48,13 @@
       },
       "input": {
         "value": "$palette.grey.20",
-        "type": "color"
+        "type": "color",
+        "description": "Background color for input fields, checkboxes, radio buttons, and switches/toggles, designed to give the appearance of being cut out from the primary surface, creating a recessed effect."
       },
       "input-error": {
         "value": "$palette.red.10",
-        "type": "color"
+        "type": "color",
+        "description": "Background color for the color.surface.input token that indicate an error state, providing a visually distinct and alerting appearance to highlight issues in user input."
       },
       "input-text-inactive": {
         "value": "$palette.grey.70",
@@ -114,15 +122,18 @@
     "content": {
       "primary": {
         "value": "$palette.base.white",
-        "type": "color"
+        "type": "color",
+        "description": "Foreground color for primary text and key content elements, optimized for readability and contrast against background surfaces, ensuring a clear visual hierarchy."
       },
       "secondary": {
-        "value": "$palette.grey.80",
-        "type": "color"
+        "value": "$palette.grey.110",
+        "type": "color",
+        "description": "Foreground color for secondary text and supporting content elements, providing a subtle contrast against primary backgrounds to ensure legibility while maintaining a clear visual hierarchy."
       },
       "tertiary": {
         "value": "$palette.grey.70",
-        "type": "color"
+        "type": "color",
+        "description": "Foreground color for tertiary text and informational elements, offering low contrast against primary backgrounds to convey less critical information while preserving overall readability."
       },
       "on-content-primary": {
         "value": "$palette.base.white",
@@ -134,27 +145,33 @@
       },
       "primary-inverted": {
         "value": "$palette.base.black",
-        "type": "color"
+        "type": "color",
+        "description": "Foreground color for primary text elements designed to provide an inverted appearance to the standard primary content color."
       },
       "perma-black": {
         "value": "$palette.base.black",
-        "type": "color"
+        "type": "color",
+        "description": "A fixed black color used for text and essential content elements, ensuring maximum contrast and readability against light backgrounds."
       },
       "perma-white": {
         "value": "$palette.base.white",
-        "type": "color"
+        "type": "color",
+        "description": "A fixed white color used for text and essential content elements, ensuring maximum contrast and readability against dark backgrounds"
       },
       "disabled": {
         "value": "$palette.grey.70",
-        "type": "color"
+        "type": "color",
+        "description": "Color used for disabled text and non-interactive elements, indicating unavailability or inactive state, with reduced contrast to ensure clear differentiation from active content."
       },
       "error": {
         "value": "{palette.red.120}",
-        "type": "color"
+        "type": "color",
+        "description": "Color used to indicate error messages and alerts within the UI, providing high visibility and contrast to effectively communicate issues and capture user attention for corrective actions."
       },
       "placeholder": {
         "value": "{palette.grey.70}",
-        "type": "color"
+        "type": "color",
+        "description": "Color used for placeholder text in input fields and text areas, offering a subtle contrast to indicate the absence of user input while maintaining legibility."
       }
     },
     "border": {
@@ -176,41 +193,50 @@
       },
       "btn-disabled": {
         "value": "$palette.grey.70",
-        "type": "color"
+        "type": "color",
+        "description": "Color for borders of disabled buttons, indicating an inactive state while ensuring clear differentiation from active buttons."
       },
       "input": {
         "value": "$palette.grey.60",
-        "type": "color"
+        "type": "color",
+        "description": "Color for borders of input fields, providing a clear outline to define interactive areas and enhance usability."
       },
       "input-error": {
         "value": "$palette.red.50",
-        "type": "color"
+        "type": "color",
+        "description": "Color for borders of input fields in an error state, visually alerting users to issues with their input."
       },
       "input-sucess": {
         "value": "$palette.green.50",
-        "type": "color"
+        "type": "color",
+        "description": "Color for borders of input fields indicating a successful state, providing positive feedback to users after correct input."
       }
     },
     "overlay": {
       "scrim": {
         "value": "rgba($palette.base.black, $opacity.scrim)",
-        "type": "color"
+        "type": "color",
+        "description": "A semi-transparent color overlay used to dim background content, often applied when modals or dialogs are active, focusing user attention on foreground elements while still showing some background context."
       },
       "navigation": {
         "value": "rgba({color.surface.primary} , {opacity.glass})",
-        "type": "color"
+        "type": "color",
+        "description": "Background overlay used for navigation panels, typically dimming surrounding content to prioritize navigation menus or drawers while retaining a cohesive interface."
       },
       "tooltip-default": {
         "value": "rgba({color.surface.action} , {opacity.glass})",
-        "type": "color"
+        "type": "color",
+        "description": "Background overlay applied to tooltips, providing a subtle backdrop that contrasts with the main UI to enhance tooltip visibility without overpowering surrounding elements."
       },
       "gradient": {
         "value": "linear-gradient (0deg, rgba( {palette.base.black} , 0.4) 0%, rgba( {palette.base.black} , 0) 100%)",
-        "type": "color"
+        "type": "color",
+        "description": "A linear gradient overlay (0deg, from 40% black to transparent), often used to create depth or a fading effect on backgrounds, ensuring smooth transitions and clear visual separation between layered content."
       },
       "gradient-primary-on-avatar-edit": {
         "value": "linear-gradient (0deg, rgba( {color.surface.primary}, 0.7) 0%, rgba( {color.surface.primary} , 1) 100%)",
-        "type": "color"
+        "type": "color",
+        "description": "A linear gradient overlay (0deg, from 70% to 100% of the primary surface color), used to subtly blend UI components or create a visual fade, ensuring consistent layering on primary surfaces."
       }
     },
     "odd-button": {
@@ -252,6 +278,66 @@
             }
           }
         }
+      }
+    },
+    "button": {
+      "surface": {
+        "regular": {
+          "default": {
+            "value": "{palette.base.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.11",
+                  "space": "lch"
+                }
+              }
+            },
+            "description": "Used as the background color for regular buttons in their default, non-interacted state with 11% opacity."
+          },
+          "hover": {
+            "value": "{palette.base.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.17",
+                  "space": "lch"
+                }
+              }
+            },
+            "description": "Applied when regular buttons are hovered over, increasing opacity to 17% for interaction feedback."
+          },
+          "disabled": {
+            "value": "{palette.base.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "lch"
+                }
+              }
+            },
+            "description": "Used for regular buttons in a disabled state with 5% opacity to indicate inactivity."
+          }
+        }
+      }
+    }
+  },
+  "color-perma": {
+    "content": {
+      "primary": {
+        "value": "$palette.base.white",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{palette.grey.110}",
+        "type": "color"
       }
     }
   },
