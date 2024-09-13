@@ -18,22 +18,22 @@
     },
     "surface": {
       "primary": {
-        "value": "$palette.grey.30",
+        "value": "$palette.grey.40",
         "type": "color",
         "description": "Base layer color applied to the majority of backgrounds, including containers, cards, and menus."
       },
       "secondary": {
-        "value": "$palette.grey.20",
+        "value": "$palette.grey.30",
         "type": "color",
         "description": "Secondary background color used for layered elements such as cards, containers, or overlays, providing depth and differentiation within the UI."
       },
       "panel": {
-        "value": "$palette.grey.40",
+        "value": "$palette.grey.50",
         "type": "color",
         "description": "Background color applied to panels, typically used for modular sections or sidebars, creating separation and structure within the interface."
       },
       "action": {
-        "value": "$palette.grey.50",
+        "value": "$palette.grey.60",
         "type": "color",
         "description": "Neutral color for interactive elements like buttons and icon links, designed to become more prominent upon interaction, indicating potential user actions without being overly emphasized in the default state."
       },
