@@ -157,7 +157,6 @@
       "color.content.on-content-primary": "aeeb2d6adbe3272870b94cdfe2f14dae9c99d327",
       "color.content.form-label-text": "f736778d8cf34a2f819a524ee90afd475e8a5415",
       "color.content.primary-inverted": "2cd97968ccb255fb401d80c35590dc89a1329483",
-      "color.content.perma-black": "49badd0cd42e61d8d1e694ec3d552d787dea7794",
       "color.content.perma-white": "c992cda6bb35270493a8e694f3bbf65db0ff7432",
       "color.content.disabled": "3b8987bd6108f4f9a38a6127de981d1fa5178ba4",
       "color.content.error": "d100f9b71252cd2f3dd5e7b3b7f6ce361abaf33f",
@@ -175,7 +174,8 @@
       "color.overlay.tooltip-default": "ef1193024dcebcf069fc879527fa697ae6fa8bd4",
       "color.overlay.error": "c340a01655fe1ded83ccbd9008713f6abea0cb69",
       "color.overlay.info": "923e0886f569e1127c8edbc543c351110ce4573c",
-      "color.overlay.positive": "4d3a188c7874dd13bdc4def8eac1bd1d11c22fd3"
+      "color.overlay.positive": "4d3a188c7874dd13bdc4def8eac1bd1d11c22fd3",
+      "color.content.perma-black": "49badd0cd42e61d8d1e694ec3d552d787dea7794"
     },
     "group": "Theme"
   },
@@ -213,7 +213,6 @@
       "color.content.on-content-primary": "aeeb2d6adbe3272870b94cdfe2f14dae9c99d327",
       "color.content.form-label-text": "f736778d8cf34a2f819a524ee90afd475e8a5415",
       "color.content.primary-inverted": "2cd97968ccb255fb401d80c35590dc89a1329483",
-      "color.content.perma-black": "49badd0cd42e61d8d1e694ec3d552d787dea7794",
       "color.content.perma-white": "c992cda6bb35270493a8e694f3bbf65db0ff7432",
       "color.content.disabled": "3b8987bd6108f4f9a38a6127de981d1fa5178ba4",
       "color.content.error": "d100f9b71252cd2f3dd5e7b3b7f6ce361abaf33f",
@@ -231,7 +230,8 @@
       "color.overlay.tooltip-default": "ef1193024dcebcf069fc879527fa697ae6fa8bd4",
       "color.overlay.error": "c340a01655fe1ded83ccbd9008713f6abea0cb69",
       "color.overlay.info": "923e0886f569e1127c8edbc543c351110ce4573c",
-      "color.overlay.positive": "4d3a188c7874dd13bdc4def8eac1bd1d11c22fd3"
+      "color.overlay.positive": "4d3a188c7874dd13bdc4def8eac1bd1d11c22fd3",
+      "color.content.perma-black": "49badd0cd42e61d8d1e694ec3d552d787dea7794"
     }
   },
   {

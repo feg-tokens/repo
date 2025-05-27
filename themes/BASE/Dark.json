@@ -117,11 +117,11 @@
         "type": "color"
       },
       "secondary": {
-        "value": "$palette.grey.80",
+        "value": "$palette.grey.100",
         "type": "color"
       },
       "tertiary": {
-        "value": "$palette.grey.70",
+        "value": "$palette.grey.90",
         "type": "color"
       },
       "on-content-primary": {
@@ -153,7 +153,7 @@
         "type": "color"
       },
       "placeholder": {
-        "value": "{palette.grey.70}",
+        "value": "{palette.grey.80}",
         "type": "color"
       }
     },
@@ -208,6 +208,102 @@
         "value": "linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
         "type": "color"
       }
+    },
+    "odd-button": {
+      "default": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "hover": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.15",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "button": {
+      "surface": {
+        "default": {
+          "value": "{palette.base.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "hover": {
+          "value": "{palette.base.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.15",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "disabled": {
+          "value": "{palette.base.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.05",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      }
+    },
+    "perma": {
+      "content": {
+        "primary": {
+          "value": "{palette.base.white}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{palette.grey.110}",
+          "type": "color"
+        }
+      }
     }
   },
   "special-surface": {
@@ -254,48 +350,6 @@
         "borderRadius": "{radius.medium}"
       },
       "type": "composition"
-    }
-  },
-  "surface": {
-    "primary": {
-      "value": "$palette.grey.40",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "$palette.grey.30",
-      "type": "color"
-    },
-    "panel": {
-      "value": "$palette.grey.50",
-      "type": "color"
-    },
-    "action": {
-      "value": "$palette.grey.60",
-      "type": "color"
-    },
-    "gradient": {
-      "value": "linear-gradient(0deg, $color.surface.primary 0%, $color.surface.secondary 100%);",
-      "type": "color"
-    },
-    "inverted-bw": {
-      "value": "$palette.base.black",
-      "type": "color"
-    },
-    "input": {
-      "value": "$palette.grey.20",
-      "type": "color"
-    },
-    "input-error": {
-      "value": "$palette.red.10",
-      "type": "color"
-    },
-    "input-text-inactive": {
-      "value": "$palette.grey.70",
-      "type": "color"
-    },
-    "navigation": {
-      "value": "$palette.grey.10",
-      "type": "color"
     }
   }
 }

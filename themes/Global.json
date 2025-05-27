@@ -103,11 +103,11 @@
         "type": "color"
       },
       "psk-secondary": {
-        "value": "#3ea6ff",
+        "value": "#0071F2",
         "type": "color"
       },
       "psk-secondary-dark": {
-        "value": "#006ecc",
+        "value": "#0066DB",
         "type": "color"
       }
     },
@@ -222,6 +222,18 @@
           }
         }
       },
+      "62": {
+        "value": "#30303F",
+        "type": "color"
+      },
+      "64": {
+        "value": "#383849",
+        "type": "color"
+      },
+      "66": {
+        "value": "#47475C",
+        "type": "color"
+      },
       "70": {
         "value": "{palette.base.grey}",
         "type": "color",
@@ -248,6 +260,14 @@
             }
           }
         }
+      },
+      "82": {
+        "value": "#7F7F9C",
+        "type": "color"
+      },
+      "84": {
+        "value": "#9292AB",
+        "type": "color"
       },
       "90": {
         "value": "{palette.base.grey}",
