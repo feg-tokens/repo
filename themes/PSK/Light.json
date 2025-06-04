@@ -25,10 +25,6 @@
         "value": "$palette.base.white",
         "type": "color"
       },
-      "on-notification-badge": {
-        "value": "$palette.base.white",
-        "type": "color"
-      },
       "on-sub-header": {
         "value": "$palette.grey.100",
         "type": "color"
@@ -38,48 +34,11 @@
         "type": "color"
       }
     },
-    "surface-hover": {
-      "brand": {
-        "value": "{color.surface.brand}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "selected": {
-        "value": "{color.surface.selected}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "active": {
-        "value": "{color.surface.active}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
-      }
-    },
     "content": {
+      "on-notification-badge": {
+        "value": "$palette.base.white",
+        "type": "color"
+      },
       "selected": {
         "value": "$palette.brand.psk-primary",
         "type": "color"
@@ -135,6 +94,47 @@
       "on-betslip-badge": {
         "value": "$palette.base.black",
         "type": "color"
+      }
+    },
+    "surface-hover": {
+      "brand": {
+        "value": "{color.surface.brand}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{scale.hsl-light}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "selected": {
+        "value": "{color.surface.selected}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{scale.hsl-light}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "active": {
+        "value": "{color.surface.active}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{scale.hsl-light}",
+              "space": "hsl"
+            }
+          }
+        }
       }
     },
     "meaning": {
