@@ -228,6 +228,33 @@
       }
     }
   },
+  "color-perma": {
+    "surface": {
+      "active": {
+        "value": "{palette.brand.ftn-primary}",
+        "type": "color"
+      },
+      "active-hover": {
+        "value": "{color.surface.active}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{scale.hsl-dark}",
+              "space": "hsl"
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "on-active": {
+        "value": "$palette.base.black",
+        "type": "color"
+      }
+    }
+  },
   "input": {
     "field": {
       "default": {
