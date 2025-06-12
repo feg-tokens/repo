@@ -25,12 +25,8 @@
         "value": "$palette.base.white",
         "type": "color"
       },
-      "on-sub-header": {
-        "value": "$palette.grey.100",
-        "type": "color"
-      },
-      "on-sub-header-active": {
-        "value": "$palette.base.white",
+      "notification-badge": {
+        "value": "$palette.brand.ftn-primary",
         "type": "color"
       }
     },

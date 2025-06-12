@@ -294,7 +294,8 @@
       "BASE/Light": "enabled",
       "FTN/Light": "enabled"
     },
-    "group": "Brand"
+    "group": "Brand",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "c04fb8e6a451da4d550120093e583254ea15b5bf",
@@ -356,7 +357,8 @@
       "BASE/Dark": "enabled",
       "CP/Dark": "enabled"
     },
-    "group": "Brand"
+    "group": "Brand",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "06c6459c03991e43b6c38857f1b7657cdcf6cd4b",
@@ -418,6 +420,7 @@
       "BASE/Dark": "enabled",
       "PSK/Dark": "enabled"
     },
-    "group": "Brand"
+    "group": "Brand",
+    "$figmaVariableReferences": {}
   }
 ]

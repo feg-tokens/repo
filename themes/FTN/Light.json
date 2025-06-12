@@ -24,6 +24,10 @@
       "betslip-badge": {
         "value": "$palette.base.black",
         "type": "color"
+      },
+      "notification-badge": {
+        "value": "{palette.red.60}",
+        "type": "color"
       }
     },
     "surface-hover": {

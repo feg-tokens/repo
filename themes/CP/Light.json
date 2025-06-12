@@ -24,6 +24,10 @@
       "betslip-badge": {
         "value": "$palette.base.white",
         "type": "color"
+      },
+      "notification-badge": {
+        "value": "$palette.brand.ftn-primary",
+        "type": "color"
       }
     },
     "surface-hover": {
@@ -126,14 +130,6 @@
       },
       "on-notification-badge": {
         "value": "$palette.base.black",
-        "type": "color"
-      },
-      "on-sub-header": {
-        "value": "$palette.grey.100",
-        "type": "color"
-      },
-      "on-sub-header-active": {
-        "value": "$palette.base.white",
         "type": "color"
       }
     },
