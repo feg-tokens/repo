@@ -9,16 +9,16 @@
         "value": "$palette.brand.psk-primary-dark",
         "type": "color"
       },
-      "highlighted": {
-        "value": "$palette.green.30",
-        "type": "color"
-      },
       "selected": {
         "value": "$palette.brand.psk-secondary",
         "type": "color"
       },
       "active": {
         "value": "$palette.brand.psk-secondary",
+        "type": "color"
+      },
+      "highlighted": {
+        "value": "$palette.green.20",
         "type": "color"
       },
       "betslip-badge": {
