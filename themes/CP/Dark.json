@@ -30,6 +30,20 @@
         "type": "color"
       }
     },
+    "surface-hover": {
+      "brand": {
+        "value": "{palette.brand.casa-primary-light}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{palette.brand.casa-primary-light}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{palette.brand.casa-primary-light}",
+        "type": "color"
+      }
+    },
     "content": {
       "on-notification-badge": {
         "value": "$palette.base.black",
@@ -90,47 +104,6 @@
       "on-betslip-badge": {
         "value": "$palette.base.black",
         "type": "color"
-      }
-    },
-    "surface-hover": {
-      "brand": {
-        "value": "{color.surface.brand}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "selected": {
-        "value": "{color.surface.selected}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "active": {
-        "value": "{color.surface.active}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
       }
     },
     "meaning": {

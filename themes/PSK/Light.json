@@ -30,17 +30,31 @@
         "type": "color"
       }
     },
+    "surface-hover": {
+      "brand": {
+        "value": "{palette.brand.psk-primary-dark}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{palette.brand.psk-primary-dark}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{palette.brand.psk-primary-dark}",
+        "type": "color"
+      }
+    },
     "content": {
       "on-notification-badge": {
         "value": "$palette.base.white",
         "type": "color"
       },
       "selected": {
-        "value": "$palette.brand.psk-primary",
+        "value": "{palette.brand.psk-primary}",
         "type": "color"
       },
       "active": {
-        "value": "$palette.brand.psk-primary",
+        "value": "{palette.brand.psk-primary}",
         "type": "color"
       },
       "on-brand": {
@@ -90,47 +104,6 @@
       "on-betslip-badge": {
         "value": "$palette.base.black",
         "type": "color"
-      }
-    },
-    "surface-hover": {
-      "brand": {
-        "value": "{color.surface.brand}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "selected": {
-        "value": "{color.surface.selected}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
-      },
-      "active": {
-        "value": "{color.surface.active}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
       }
     },
     "meaning": {
@@ -231,17 +204,8 @@
         "type": "color"
       },
       "active-hover": {
-        "value": "{palette.brand.psk-secondary}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
+        "value": "{palette.brand.psk-secondary-dark}",
+        "type": "color"
       }
     },
     "content": {

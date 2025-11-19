@@ -32,43 +32,16 @@
     },
     "surface-hover": {
       "brand": {
-        "value": "{color.surface.brand}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
+        "value": "{palette.brand.casa-primary-dark}",
+        "type": "color"
       },
       "selected": {
-        "value": "{color.surface.selected}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
+        "value": "{palette.brand.casa-primary-dark}",
+        "type": "color"
       },
       "active": {
-        "value": "{color.surface.active}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "{scale.hsl-light}",
-              "space": "hsl"
-            }
-          }
-        }
+        "value": "{palette.brand.casa-primary-dark}",
+        "type": "color"
       }
     },
     "content": {
