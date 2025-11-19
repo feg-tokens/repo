@@ -207,6 +207,10 @@
       "gradient": {
         "value": "linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
         "type": "color"
+      },
+      "gradient-on-avatar-edit": {
+        "value": "linear-gradient (0deg, rgba( {color.surface.primary} , 0.7) 0%, rgba( {color.surface.primary} , 1) 100%)",
+        "type": "color"
       }
     },
     "odd-button": {
@@ -311,6 +315,13 @@
       "value": {
         "fill": "{color.overlay.navigation}",
         "backgroundBlur": "8"
+      },
+      "type": "composition"
+    },
+    "glass-gradient-on-avatar-edit": {
+      "value": {
+        "fill": "{color.overlay.gradient-on-avatar-edit}",
+        "backgroundBlur": "10"
       },
       "type": "composition"
     }

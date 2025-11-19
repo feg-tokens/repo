@@ -70,12 +70,20 @@
   },
   "palette": {
     "brand": {
+      "ftn-primary-light": {
+        "value": "#FFE966",
+        "type": "color"
+      },
       "ftn-primary": {
         "value": "#FFDB01",
         "type": "color"
       },
       "ftn-primary-dark": {
         "value": "#E8B20B",
+        "type": "color"
+      },
+      "ftn-secondary-light": {
+        "value": "#1F3EFF",
         "type": "color"
       },
       "ftn-secondary": {
@@ -86,12 +94,20 @@
         "value": "#00169E",
         "type": "color"
       },
+      "casa-primary-light": {
+        "value": "#F02A30",
+        "type": "color"
+      },
       "casa-primary": {
         "value": "#d2252a",
         "type": "color"
       },
       "casa-primary-dark": {
         "value": "#991c1f",
+        "type": "color"
+      },
+      "psk-primary-light": {
+        "value": "#1a5193",
         "type": "color"
       },
       "psk-primary": {
@@ -104,6 +120,10 @@
       },
       "psk-secondary": {
         "value": "#0071F2",
+        "type": "color"
+      },
+      "psk-secondary-light": {
+        "value": "#FF0818",
         "type": "color"
       },
       "psk-secondary-dark": {
@@ -211,7 +231,6 @@
       "60": {
         "value": "{palette.base.grey}",
         "type": "color",
-        "description": "Action",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -220,7 +239,8 @@
               "space": "hsl"
             }
           }
-        }
+        },
+        "description": "Action"
       },
       "62": {
         "value": "#30303F",
