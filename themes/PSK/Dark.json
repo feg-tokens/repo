@@ -222,18 +222,6 @@
         "value": "rgba( {color.meaning.positive} , {opacity.glass})",
         "type": "color"
       }
-    },
-    "gradient": {
-      "promo-card": {
-        "1": {
-          "value": "{palette.grey.60}",
-          "type": "color"
-        },
-        "2": {
-          "value": "{palette.grey.30}",
-          "type": "color"
-        }
-      }
     }
   },
   "color-perma": {

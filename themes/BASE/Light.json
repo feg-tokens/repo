@@ -155,6 +155,10 @@
       "placeholder": {
         "value": "{palette.grey.70}",
         "type": "color"
+      },
+      "money": {
+        "value": "{palette.green.20}",
+        "type": "color"
       }
     },
     "border": {
@@ -305,6 +309,14 @@
         },
         "secondary": {
           "value": "{palette.grey.110}",
+          "type": "color"
+        }
+      }
+    },
+    "gradient": {
+      "mk-mission-card": {
+        "01": {
+          "value": "{palette.base.white}",
           "type": "color"
         }
       }

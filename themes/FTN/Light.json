@@ -230,36 +230,6 @@
         "value": "rgba( {color.meaning.positive} , {opacity.glass})",
         "type": "color"
       }
-    },
-    "gradient": {
-      "promo-card": {
-        "1": {
-          "value": "{color.surface.brand}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "lch"
-              }
-            }
-          }
-        },
-        "2": {
-          "value": "{palette.base.white}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.05",
-                "space": "lch"
-              }
-            }
-          }
-        }
-      }
     }
   },
   "color-perma": {
