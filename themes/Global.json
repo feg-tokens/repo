@@ -106,20 +106,24 @@
         "value": "#991c1f",
         "type": "color"
       },
+      "psk-primary-light-content": {
+        "value": "#75A6FF",
+        "type": "color"
+      },
       "psk-primary-light": {
-        "value": "#1a5193",
+        "value": "#2065E4",
         "type": "color"
       },
       "psk-primary": {
-        "value": "#19457a",
+        "value": "#1752BF",
         "type": "color"
       },
       "psk-primary-dark": {
-        "value": "#112e52",
+        "value": "#1447A6",
         "type": "color"
       },
       "psk-secondary": {
-        "value": "#0071F2",
+        "value": "#EB0011",
         "type": "color"
       },
       "psk-secondary-light": {
@@ -127,7 +131,7 @@
         "type": "color"
       },
       "psk-secondary-dark": {
-        "value": "#0066DB",
+        "value": "#D4000E",
         "type": "color"
       }
     },
