@@ -15,6 +15,12 @@
         "description": "To be used on progress-bar backgrounds."
       }
     },
+    "temp-background": {
+      "base": {
+        "value": "#DFDFE3",
+        "type": "color"
+      }
+    },
     "surface": {
       "primary": {
         "value": "$palette.base.white",
