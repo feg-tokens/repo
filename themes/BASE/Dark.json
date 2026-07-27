@@ -61,6 +61,19 @@
       "navigation": {
         "value": "$palette.grey.10",
         "type": "color"
+      },
+      "mk-offer-card-time-badge": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.04",
+              "space": "lch"
+            }
+          }
+        }
       }
     },
     "surface-hover": {
@@ -165,6 +178,10 @@
       "money": {
         "value": "{palette.green.90}",
         "type": "color"
+      },
+      "mk-content-live": {
+        "value": "#17CF2F",
+        "type": "color"
       }
     },
     "border": {
@@ -199,6 +216,32 @@
       "input-sucess": {
         "value": "$palette.green.50",
         "type": "color"
+      },
+      "alpha-10": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "alpha-20": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.2",
+              "space": "lch"
+            }
+          }
+        }
       }
     },
     "overlay": {
