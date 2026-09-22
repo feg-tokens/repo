@@ -368,6 +368,22 @@
           "value": "{palette.grey.30}",
           "type": "color"
         }
+      },
+      "mk-ai-border-start": {
+        "value": "#B780FF",
+        "type": "color"
+      },
+      "mk-ai-border-mid": {
+        "value": "#F2E9FF",
+        "type": "color"
+      },
+      "mk-ai-border-end": {
+        "value": "#806BFF",
+        "type": "color"
+      },
+      "mk-card-gradient-1": {
+        "value": "linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
+        "type": "color"
       }
     }
   },

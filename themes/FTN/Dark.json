@@ -28,6 +28,10 @@
       "notification-badge": {
         "value": "$palette.red.60",
         "type": "color"
+      },
+      "mk-surface-offer-card-badge": {
+        "value": "{palette.mk.badge-green}",
+        "type": "color"
       }
     },
     "surface-hover": {
@@ -132,12 +136,12 @@
         "value": "$palette.base.white",
         "type": "color"
       },
-      "on-sub-header": {
-        "value": "$palette.grey.50",
+      "mk-content-offer-card-badge": {
+        "value": "{palette.mk.live-green}",
         "type": "color"
       },
-      "on-sub-header-active": {
-        "value": "$palette.base.black",
+      "mk-content-offer-card-badge-active": {
+        "value": "{palette.base.black}",
         "type": "color"
       }
     },
@@ -214,6 +218,31 @@
       },
       "selected": {
         "value": "{palette.brand.ftn-primary}",
+        "type": "color"
+      },
+      "mk-border-offer-badge": {
+        "value": "{palette.mk.badge-green}",
+        "type": "color"
+      }
+    },
+    "gradient": {
+      "mk-ako-card": {
+        "value": "linear-gradient (90deg, rgba( {palette.brand.ftn-primary} , 0) 0%, rgba( {palette.brand.ftn-primary} , 0.1) 100%)",
+        "type": "color",
+        "description": "Used for the primary brand surface."
+      },
+      "mk-cas-cs-card": {
+        "value": "linear-gradient (90deg, rgba( {palette.brand.ftn-primary} , 0) 0%, rgba( {palette.brand.ftn-primary} , 0.25) 100%)",
+        "type": "color",
+        "description": "Used for the primary brand surface."
+      },
+      "mk-wc-ako-card": {
+        "value": "linear-gradient (90deg, rgba({palette.brand.ftn-secondary} , 0) 0%, rgba( {palette.brand.ftn-secondary} , 0.2) 100%)",
+        "type": "color",
+        "description": "Used for the primary brand surface."
+      },
+      "mk-icon-nav-gradient": {
+        "value": "linear-gradient(-45deg, #DBA943 0%, #FBE67B 33%, #F5E288 54%, #F7D14E 77%, #D4A041 100%)",
         "type": "color"
       }
     },

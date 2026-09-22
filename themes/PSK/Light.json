@@ -28,6 +28,10 @@
       "notification-badge": {
         "value": "$palette.red.60",
         "type": "color"
+      },
+      "mk-surface-offer-card-badge": {
+        "value": "{palette.mk.badge-red}",
+        "type": "color"
       }
     },
     "content": {
@@ -89,6 +93,14 @@
       },
       "on-betslip-badge": {
         "value": "$palette.base.black",
+        "type": "color"
+      },
+      "mk-content-offer-card-badge": {
+        "value": "{palette.mk.badge-red}",
+        "type": "color"
+      },
+      "mk-content-offer-card-badge-active": {
+        "value": "{palette.base.white}",
         "type": "color"
       }
     },
@@ -179,6 +191,28 @@
       },
       "selected": {
         "value": "$palette.brand.psk-primary",
+        "type": "color"
+      },
+      "mk-border-offer-badge": {
+        "value": "{palette.mk.badge-red}",
+        "type": "color"
+      }
+    },
+    "gradient": {
+      "mk-ako-card": {
+        "value": "linear-gradient (90deg, rgba( {brand.psk-brand-primary} , 0) 0%, rgba( {brand.psk-brand-primary} , 0.1) 100%)",
+        "type": "color"
+      },
+      "mk-cas-cs-card": {
+        "value": "linear-gradient (90deg, rgba( {brand.psk-brand-primary} , 0) 0%, rgba( {brand.psk-brand-primary} , 0.25) 100%)",
+        "type": "color"
+      },
+      "mk-wc-ako-card": {
+        "value": "linear-gradient (90deg, rgba( {brand.psk-brand-primary} , 0) 0%, rgba( {brand.psk-brand-primary} , 0.2) 100%)",
+        "type": "color"
+      },
+      "mk-icon-nav-gradient": {
+        "value": "linear-gradient(-45deg, #347CFF 0%, #659BFF 33%, #81ADFF 54%, #4F8CFF 77%, #2774FF 100%)",
         "type": "color"
       }
     },
