@@ -215,7 +215,7 @@
         "type": "color"
       },
       "mk-content-live": {
-        "value": "#17CF2F",
+        "value": "{palette.mk.live-green}",
         "type": "color"
       }
     },
