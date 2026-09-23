@@ -987,6 +987,24 @@
         "value": "#f6b379",
         "type": "color"
       }
+    },
+    "mk": {
+      "badge-blue": {
+        "value": "#256FD2",
+        "type": "color"
+      },
+      "badge-green": {
+        "value": "#C8E651",
+        "type": "color"
+      },
+      "badge-red": {
+        "value": "#DD3107",
+        "type": "color"
+      },
+      "live-green": {
+        "value": "#17CF2F",
+        "type": "color"
+      }
     }
   },
   "radius": {

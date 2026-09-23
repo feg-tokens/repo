@@ -28,6 +28,51 @@
       "notification-badge": {
         "value": "$palette.brand.ftn-primary",
         "type": "color"
+      },
+      "mk-surface-offer-card-badge": {
+        "value": "{palette.mk.badge-blue}",
+        "type": "color"
+      }
+    },
+    "surface-hover": {
+      "brand": {
+        "value": "{color.surface.brand}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{scale.hsl-dark}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "selected": {
+        "value": "{color.surface.selected}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{scale.hsl-dark}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "active": {
+        "value": "{color.surface.active}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{scale.hsl-dark}",
+              "space": "hsl"
+            }
+          }
+        }
       }
     },
     "content": {
@@ -90,47 +135,14 @@
       "on-betslip-badge": {
         "value": "$palette.base.black",
         "type": "color"
-      }
-    },
-    "surface-hover": {
-      "brand": {
-        "value": "{color.surface.brand}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
       },
-      "selected": {
-        "value": "{color.surface.selected}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
+      "mk-content-offer-card-badge": {
+        "value": "{palette.mk.badge-blue}",
+        "type": "color"
       },
-      "active": {
-        "value": "{color.surface.active}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
-              "space": "hsl"
-            }
-          }
-        }
+      "mk-content-offer-card-badge-active": {
+        "value": "{palette.base.white}",
+        "type": "color"
       }
     },
     "meaning": {
@@ -206,6 +218,28 @@
       },
       "selected": {
         "value": "{palette.brand.casa-primary}",
+        "type": "color"
+      },
+      "mk-border-offer-badge": {
+        "value": "{palette.mk.badge-blue}",
+        "type": "color"
+      }
+    },
+    "gradient": {
+      "mk-ako-card": {
+        "value": "linear-gradient (90deg, rgba( {brand.casa-brand-primary} , 0) 0%, rgba( {brand.casa-brand-primary} , 0.1) 100%)",
+        "type": "color"
+      },
+      "mk-cas-cs-card": {
+        "value": "linear-gradient (90deg, rgba( {brand.casa-brand-primary} , 0) 0%, rgba( {brand.casa-brand-primary} , 0.25) 100%)",
+        "type": "color"
+      },
+      "mk-wc-ako-card": {
+        "value": "linear-gradient (90deg, rgba( {brand.casa-brand-primary} , 0) 0%, rgba( {brand.casa-brand-primary} , 0.2) 100%)",
+        "type": "color"
+      },
+      "mk-icon-nav-gradient": {
+        "value": "linear-gradient(-45deg, #F34046 0%, #E36064 33%, #F28387 54%, #E65559 77%, #F13E44 100%)",
         "type": "color"
       }
     },

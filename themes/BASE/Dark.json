@@ -62,6 +62,41 @@
         "value": "$palette.grey.10",
         "type": "color"
       },
+      "surface-comment-blocked": {
+        "value": "$palette.blue.30",
+        "type": "color",
+        "description": "Used exculsevley on blocked comments inside of chat."
+      },
+      "mk-surface-alpha-50-shift": {
+        "value": "{palette.base.black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "mk-surface-alpha-50-shift_hover": {
+        "value": "{palette.base.black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.3",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "mk-surface-homepage-hero-container": {
+        "value": "#121212",
+        "type": "color"
+      },
       "mk-offer-card-time-badge": {
         "value": "{palette.base.white}",
         "type": "color",
@@ -368,6 +403,22 @@
           "value": "{palette.grey.30}",
           "type": "color"
         }
+      },
+      "mk-ai-border-start": {
+        "value": "#B780FF",
+        "type": "color"
+      },
+      "mk-ai-border-mid": {
+        "value": "#F2E9FF",
+        "type": "color"
+      },
+      "mk-ai-border-end": {
+        "value": "#806BFF",
+        "type": "color"
+      },
+      "mk-card-gradient-1": {
+        "value": "linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
+        "type": "color"
       }
     }
   },
